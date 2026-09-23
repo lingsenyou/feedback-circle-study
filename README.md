@@ -1,0 +1,59 @@
+# Selective feedback and stakeholder responsiveness
+
+A reproducible simulation study of feedback participation under a fixed population objective.
+
+**Status:** research working paper and executed synthetic experiment. Not peer reviewed. No bioRxiv submission or DOI has been issued for this work. This is an abstract AI mechanism simulation, not biological research, a clinical study, or a language model benchmark.
+
+## Read the paper
+
+- [English PDF](manuscript/Selective_feedback_simulation_study.pdf)
+- [Editable Word manuscript](manuscript/Selective_feedback_simulation_study.docx)
+- [Web-readable manuscript](manuscript/manuscript.md)
+- [Locally fixed pre-execution analysis plan](PROTOCOL.md) and [full results summary](RESULTS.md)
+
+The manuscript has four main figures and 13 references. Two references, on intelligent photonics and digital twins and AI-assisted PLLA modifier screening, are also listed at [lingsenyou.com/publications](https://lingsenyou.com/publications/). They motivate the vascular-research discussion; they are not evidence for the simulation mechanism.
+
+## What was actually done
+
+We executed 7,200 scalar adaptation trajectories: 20 independently generated parameter worlds, 10 paired random seeds, three strengths of outcome-dependent participation, three preference/access scenarios, and four feedback conditions. Each trajectory has 250 updates using 96 accepted synthetic preferences per update. The total of 172.8 million processed feedback uses is **not** an independent sample size: random draws are reused across paired conditions. Statistical intervals resample 20 world means.
+
+The primary contrast is prespecified group 0 squared loss under endogenous feedback minus a static selection control, in the main scenario at beta = 3. The observed difference is **0.733772**, with a 95% paired world-bootstrap interval of **0.515809 to 0.897117**. Balanced collection and correction using known participation probabilities substantially reduce population regret. Zero outcome-dependence and no-conflict controls are retained.
+
+![Actual simulation trajectories](figures/figure3_trajectories.png)
+
+These numerical results quantify the consequences of the released model assumptions. They do not establish a new universal law, human social-mobility effects, a limit to AI intelligence, knowledge retention, or patient benefit. The performance-retention loop has prior research, including [Hashimoto et al. (2018)](https://proceedings.mlr.press/v80/hashimoto18a.html).
+
+## Reproduce and inspect
+
+Recorded environment: Python 3.12.14 and NumPy 2.3.5. Install Python 3.11 or newer for the pinned NumPy version. Figure generation additionally uses Pillow and an available Arial, DejaVu Sans, or Liberation Sans font.
+
+```sh
+python -m pip install -r requirements.txt
+python run_study.py --output reproduced-results
+python verify_outputs.py
+python independent_audit.py
+python build_study_figures.py
+```
+
+The published `results/` directory is preserved; the simulation refuses to overwrite a completed output directory. The default audit and figure commands inspect the published results. `independent_audit.py` includes a separately implemented scalar loop and reconstructs the primary bootstrap interval from the run-level CSV. `verify_outputs.py` checks saved-output identities and the replay sequence. Timestamps vary on reproduction; the numerical CSV outputs are deterministic in the recorded environment.
+
+`build_concept_figures.py` regenerates the broader conceptual schematics in `concept_figures/`. Only its first diagram is included as a main figure in this simulation manuscript. The other conceptual diagrams describe future hypotheses and are not executed results.
+
+## Data and units
+
+- `results/run_metrics.csv`: one row per executed trajectory.
+- `results/world_metrics.csv`: seed averages within each world.
+- `results/trajectories_world.csv`: checkpoints at 0, 10, ..., 250 completed updates.
+- `results/contrasts.csv`: paired world-level comparisons and intervals.
+- `results/execution_start.json`: local pre-execution code, configuration, and protocol hashes.
+- `figures/plotted_values.csv`: every quantitative plotted value and interval.
+
+The main endpoint is the mean of pre-update decision risks in rounds 201–250. `action_after_last_update` is a separate terminal state. No extra feedback batch was drawn at the terminal checkpoint, so realized-share and sample-monitoring columns there are `nan`; expected metrics are available. This is documented missingness, not a failed run.
+
+The monitoring gap is **fixed-population expected loss minus feedback-weighted expected loss**. A positive gap means incoming-feedback monitoring looks better than fixed-population evaluation. Known-probability weighting is self-normalized and can have finite-batch bias. Balanced collection matches accepted sample budgets but can require more invitations.
+
+## Transparency
+
+All data are generated by the released simulation. No patient records, private source documents, passwords, access tokens, or model weights are included. The protocol was saved before the main execution locally; this is not external preregistration. OpenAI Codex assisted with literature work, drafting, code, execution, review, and figures. Numerical results came from code execution.
+
+GitHub availability provides a public record of the files; it is not journal acceptance or a bioRxiv posting. No additional reuse license is granted in this release.

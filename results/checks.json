@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "max_risk_decomposition_error": 5.15673658288418e-16,
+  "max_probability_sum_error": 3.3306690738754696e-16,
+  "max_no_conflict_group_risk_difference": 0.0,
+  "zero_beta_endogenous_static_max_endpoint_difference": 0.0,
+  "quota_count_check": true,
+  "replay_max_action_error": 0.0,
+  "ipw_expectation_max_error": 2.220446049250313e-16
+}

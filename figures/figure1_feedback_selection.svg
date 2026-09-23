@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6.5in" height="4.550in" viewBox="0 0 1300 910">
+<title>Feedback selection and a proposed iterative loop</title>
+<desc>Conceptual schematic / proposed design; no empirical data.</desc>
+<rect width="1300" height="910" fill="white"/>
+<rect x="30" y="24" width="39" height="39" rx="9" fill="#17354C" stroke="#17354C" stroke-width="0"/>
+<text x="49.5" y="52.50" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+<text x="84" y="54.50" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#17354C" text-anchor="start">Feedback passes through several selection steps</text>
+<rect x="30" y="107" width="280" height="159" rx="16" fill="#F4F7F9" stroke="#17354C" stroke-width="2"/>
+<circle cx="170" cy="137" r="6" fill="#17354C" stroke="#17354C" stroke-width="0"/>
+<text x="170" y="185.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#17354C" text-anchor="middle">Affected people</text>
+<text x="170" y="228.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Users and nonusers</text>
+<polyline points="320,186 340,186" fill="none" stroke="#51616F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="340.00,186.00 331.00,181.50 331.00,190.50" fill="#51616F"/>
+<rect x="350" y="107" width="280" height="159" rx="16" fill="#EAF5F4" stroke="#087F8C" stroke-width="2"/>
+<circle cx="490" cy="137" r="6" fill="#087F8C" stroke="#087F8C" stroke-width="0"/>
+<text x="490" y="185.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#087F8C" text-anchor="middle">People reached</text>
+<text x="490" y="228.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Access and exposure</text>
+<polyline points="640,186 660,186" fill="none" stroke="#51616F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="660.00,186.00 651.00,181.50 651.00,190.50" fill="#51616F"/>
+<rect x="670" y="107" width="280" height="159" rx="16" fill="#F2EEF8" stroke="#755AA6" stroke-width="2"/>
+<circle cx="810" cy="137" r="6" fill="#755AA6" stroke="#755AA6" stroke-width="0"/>
+<text x="810" y="185.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#755AA6" text-anchor="middle">Feedback offered</text>
+<text x="810" y="228.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Time, language, cost</text>
+<polyline points="960,186 980,186" fill="none" stroke="#51616F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="980.00,186.00 971.00,181.50 971.00,190.50" fill="#51616F"/>
+<rect x="990" y="107" width="280" height="159" rx="16" fill="#FFF4DE" stroke="#AE701B" stroke-width="2"/>
+<circle cx="1130" cy="137" r="6" fill="#AE701B" stroke="#AE701B" stroke-width="0"/>
+<text x="1130" y="185.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#AE701B" text-anchor="middle">Feedback admitted</text>
+<text x="1130" y="228.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Filters and weights</text>
+<text x="650" y="315.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#17354C" text-anchor="middle">Define membership before observing outcomes;</text>
+<text x="650" y="350.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#17354C" text-anchor="middle">estimate the influence of admitted feedback separately.</text>
+<rect x="30" y="396" width="39" height="39" rx="9" fill="#17354C" stroke="#17354C" stroke-width="0"/>
+<text x="49.5" y="424.50" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+<text x="84" y="426.50" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#17354C" text-anchor="start">Participation and exit can change the next feedback pool</text>
+<rect x="55" y="480" width="290" height="134" rx="16" fill="#FFF4DE" stroke="#AE701B" stroke-width="2"/>
+<text x="200" y="541.50" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#AE701B" text-anchor="middle">Admitted feedback</text>
+<text x="200" y="582.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">At iteration t</text>
+<rect x="483" y="462" width="334" height="169" rx="16" fill="#EAF5F4" stroke="#087F8C" stroke-width="2"/>
+<text x="650" y="506.50" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#087F8C" text-anchor="middle">System changes</text>
+<text x="650" y="545.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Parameters</text>
+<text x="650" y="575.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Context / memory</text>
+<text x="650" y="605.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Deployment selection</text>
+<rect x="955" y="480" width="290" height="134" rx="16" fill="#F4F7F9" stroke="#17354C" stroke-width="2"/>
+<text x="1100" y="538.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#17354C" text-anchor="middle">Actions + outcomes</text>
+<text x="1100" y="582.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Who remains engaged?</text>
+<polyline points="356,546 468,546" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="468.00,546.00 458.00,541.00 458.00,551.00" fill="#087F8C"/>
+<polyline points="831,546 941,546" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="941.00,546.00 931.00,541.00 931.00,551.00" fill="#087F8C"/>
+<polyline points="1100,627 1100,685 200,685 200,626" fill="none" stroke="#AE701B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7"/>
+<polygon points="200.00,626.00 195.00,636.00 205.00,636.00" fill="#AE701B"/>
+<text x="650" y="718.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#AE701B" text-anchor="middle">Changes in exposure, participation, and exit</text>
+<rect x="55" y="760" width="1190" height="77" rx="16" fill="#FFFFFF" stroke="#087F8C" stroke-width="2"/>
+<text x="650" y="805.00" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#087F8C" text-anchor="middle">Independent assessment: fixed cohort, nonusers, and people who exit</text>
+<polyline points="30,854 1270,854" fill="none" stroke="#D8E2E8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="30" y="889.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="start">Conceptual schematic / proposed design; no empirical data.</text>
+</svg>

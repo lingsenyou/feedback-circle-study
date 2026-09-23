@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6.5in" height="4.500in" viewBox="0 0 1300 900">
+<title>Paired intervention contrasts and mechanism controls from the simulation</title>
+<desc>Synthetic scalar-agent simulation; no human, clinical, or language-model data.</desc>
+<rect width="1300" height="900" fill="white"/>
+<rect x="30" y="26" width="39" height="39" rx="9" fill="#17354C" stroke="#17354C" stroke-width="0"/>
+<text x="49.5" y="54.50" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+<text x="84" y="56.50" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#17354C" text-anchor="start">Main correction effects</text>
+<rect x="705" y="26" width="39" height="39" rx="9" fill="#17354C" stroke="#17354C" stroke-width="0"/>
+<text x="724.5" y="54.50" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+<text x="759" y="56.50" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#17354C" text-anchor="start">Mechanism controls</text>
+<text x="30" y="111.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="start">Conflict + friction; beta = 3</text>
+<text x="705" y="111.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="start">Endogenous minus static loop-off</text>
+<text x="30" y="150.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#17354C" text-anchor="start">Group 0 loss: endogenous minus comparator</text>
+<text x="705" y="150.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#17354C" text-anchor="start">Group 0 loss across selection sensitivities</text>
+<polyline points="270.0,218 270.0,578" fill="none" stroke="#D8E2E8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="270.0" y="617.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">0.0</text>
+<polyline points="365.7142857142857,218 365.7142857142857,578" fill="none" stroke="#D8E2E8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="365.7142857142857" y="617.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">0.4</text>
+<polyline points="461.42857142857144,218 461.42857142857144,578" fill="none" stroke="#D8E2E8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="461.42857142857144" y="617.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">0.8</text>
+<polyline points="557.1428571428571,218 557.1428571428571,578" fill="none" stroke="#D8E2E8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="557.1428571428571" y="617.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">1.2</text>
+<polyline points="270,218 270,578 605,578" fill="none" stroke="#51616F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="245" y="275.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#755AA6" text-anchor="end">Static loop-off</text>
+<polyline points="393.4256357638042,267 484.6672054171132,267" fill="none" stroke="#755AA6" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="393.4256357638042,257 393.4256357638042,277" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="484.6672054171132,257 484.6672054171132,277" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="445.58117603710275" cy="267" r="7" fill="#755AA6" stroke="#755AA6" stroke-width="0"/>
+<text x="445.58117603710275" y="312.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#755AA6" text-anchor="middle">0.73</text>
+<text x="245" y="395.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#087F8C" text-anchor="end">Balanced quota</text>
+<polyline points="450.0072205094686,387 563.177101497716,387" fill="none" stroke="#087F8C" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="450.0072205094686,377 450.0072205094686,397" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="563.177101497716,377 563.177101497716,397" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="515.0236063222999" cy="387" r="7" fill="#087F8C" stroke="#087F8C" stroke-width="0"/>
+<text x="515.0236063222999" y="432.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#087F8C" text-anchor="middle">1.02</text>
+<text x="245" y="515.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#AE701B" text-anchor="end">IPW</text>
+<polyline points="446.2294728751442,507 557.0179739634258,507" fill="none" stroke="#AE701B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="446.2294728751442,497 446.2294728751442,517" fill="none" stroke="#AE701B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="557.0179739634258,497 557.0179739634258,517" fill="none" stroke="#AE701B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="510.07243164928076" cy="507" r="7" fill="#AE701B" stroke="#AE701B" stroke-width="0"/>
+<text x="510.07243164928076" y="552.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#AE701B" text-anchor="middle">1.00</text>
+<text x="435" y="675.00" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#17354C" text-anchor="middle">Loss difference</text>
+<text x="30" y="725.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="start">Positive values: higher loss under endogenous feedback</text>
+<polyline points="788,578.0 1233,578.0" fill="none" stroke="#D8E2E8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="774" y="586.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="end">-0.2</text>
+<polyline points="788,518.0 1233,518.0" fill="none" stroke="#D8E2E8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="774" y="526.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="end">0.0</text>
+<polyline points="788,458.0 1233,458.0" fill="none" stroke="#D8E2E8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="774" y="466.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="end">0.2</text>
+<polyline points="788,398.0 1233,398.0" fill="none" stroke="#D8E2E8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="774" y="406.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="end">0.4</text>
+<polyline points="788,338.0 1233,338.0" fill="none" stroke="#D8E2E8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="774" y="346.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="end">0.6</text>
+<polyline points="788,278.0 1233,278.0" fill="none" stroke="#D8E2E8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="774" y="286.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="end">0.8</text>
+<polyline points="788,218.0 1233,218.0" fill="none" stroke="#D8E2E8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="774" y="226.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="end">1.0</text>
+<polyline points="788,218 788,578 1233,578" fill="none" stroke="#51616F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="788.0,578 788.0,586" fill="none" stroke="#51616F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="788.0" y="617.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">0</text>
+<polyline points="1010.5,578 1010.5,586" fill="none" stroke="#51616F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1010.5" y="617.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">1.5</text>
+<polyline points="1233.0,578 1233.0,586" fill="none" stroke="#51616F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1233.0" y="617.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">3</text>
+<polyline points="788.0,518.0 1233.0,518.0" fill="none" stroke="#51616F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7"/>
+<polyline points="788.0,518.0 788.0,518.0" fill="none" stroke="#17354C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="780.0,518.0 796.0,518.0" fill="none" stroke="#17354C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="780.0,518.0 796.0,518.0" fill="none" stroke="#17354C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1010.5,358.89070607412805 1010.5,320.24293897929437" fill="none" stroke="#17354C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1002.5,358.89070607412805 1018.5,358.89070607412805" fill="none" stroke="#17354C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1002.5,320.24293897929437 1018.5,320.24293897929437" fill="none" stroke="#17354C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1233.0,363.25741187821563 1233.0,248.86499619347" fill="none" stroke="#17354C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1225.0,363.25741187821563 1241.0,363.25741187821563" fill="none" stroke="#17354C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1225.0,248.86499619347 1241.0,248.86499619347" fill="none" stroke="#17354C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="788.0,518.0 1010.5,340.14288407216225 1233.0,297.86837631169215" fill="none" stroke="#17354C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="788.0" cy="518.0" r="6" fill="#17354C" stroke="#17354C" stroke-width="0"/>
+<circle cx="1010.5" cy="340.14288407216225" r="6" fill="#17354C" stroke="#17354C" stroke-width="0"/>
+<circle cx="1233.0" cy="297.86837631169215" r="6" fill="#17354C" stroke="#17354C" stroke-width="0"/>
+<polyline points="788.0,518.0 788.0,518.0" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="780.0,518.0 796.0,518.0" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="780.0,518.0 796.0,518.0" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1010.5,531.4430180761414 1010.5,488.7732487018256" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1002.5,531.4430180761414 1018.5,531.4430180761414" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1002.5,488.7732487018256 1018.5,488.7732487018256" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1233.0,473.7557209960248 1233.0,277.9831900834949" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1225.0,473.7557209960248 1241.0,473.7557209960248" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1225.0,277.9831900834949 1241.0,277.9831900834949" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="788.0,518.0 1010.5,509.82433064251774 1233.0,373.2626924027476" fill="none" stroke="#755AA6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="788.0" cy="518.0" r="6" fill="#755AA6" stroke="#755AA6" stroke-width="0"/>
+<circle cx="1010.5" cy="509.82433064251774" r="6" fill="#755AA6" stroke="#755AA6" stroke-width="0"/>
+<circle cx="1233.0" cy="373.2626924027476" r="6" fill="#755AA6" stroke="#755AA6" stroke-width="0"/>
+<polyline points="788.0,518.0 788.0,518.0" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="780.0,518.0 796.0,518.0" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="780.0,518.0 796.0,518.0" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1010.5,518.0 1010.5,518.0" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1002.5,518.0 1018.5,518.0" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1002.5,518.0 1018.5,518.0" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1233.0,518.0 1233.0,518.0" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1225.0,518.0 1241.0,518.0" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1225.0,518.0 1241.0,518.0" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="788.0,518.0 1010.5,518.0 1233.0,518.0" fill="none" stroke="#087F8C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="788.0" cy="518.0" r="6" fill="#087F8C" stroke="#087F8C" stroke-width="0"/>
+<circle cx="1010.5" cy="518.0" r="6" fill="#087F8C" stroke="#087F8C" stroke-width="0"/>
+<circle cx="1233.0" cy="518.0" r="6" fill="#087F8C" stroke="#087F8C" stroke-width="0"/>
+<text x="1010" y="675.00" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#17354C" text-anchor="middle">Selection sensitivity beta</text>
+<polyline points="740,709 778,709" fill="none" stroke="#17354C" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="793" y="714.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#17354C" text-anchor="start">Conflict + friction</text>
+<polyline points="740,751 778,751" fill="none" stroke="#755AA6" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="793" y="756.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#755AA6" text-anchor="start">Conflict + equal access</text>
+<polyline points="740,793 778,793" fill="none" stroke="#087F8C" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="793" y="798.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#087F8C" text-anchor="start">No conflict + friction</text>
+<text x="30" y="780.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="start">Endpoints: mean of final 50 rounds</text>
+<text x="30" y="818.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="start">All differences are paired within worlds</text>
+<polyline points="30,844 1270,844" fill="none" stroke="#D8E2E8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="30" y="879.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="start">95% bootstrap intervals across 20 world means (10 seeds each); secondary intervals are descriptive.</text>
+</svg>

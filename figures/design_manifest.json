@@ -1,0 +1,11 @@
+{
+  "name": "figure2_study_design",
+  "width_in": 6.5,
+  "height_in": 4.7,
+  "png_pixels": [
+    2600,
+    1880
+  ],
+  "min_font_pt_at_6_5_in": 9.0,
+  "description": "Implemented synthetic scalar-agent experiment"
+}
