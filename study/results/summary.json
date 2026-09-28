@@ -1,0 +1,115 @@
+{
+  "study_version": "1.0.0",
+  "recorded_before_main_execution_utc": "2026-09-23T04:35:02.404389+00:00",
+  "record_type": "local pre-execution record, not public preregistration",
+  "config_sha256": "1b3851e12de93c8de747b961049b7303ead7a9ebbb57bff8b4b1e9226e98cb82",
+  "protocol_sha256": "da4b0ac2459a096bed7c3a5f134b74a73c2433371701df91be4e31811214fc28",
+  "code_sha256": "2ea601beeaaac9dd12cb3b90cf2f4855fb3efc433bc60d9b9bcb77f25caf411f",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "planned_runs": 7200,
+  "config": {
+    "study_version": "1.0.0",
+    "study_type": "synthetic mechanism simulation",
+    "worlds": 20,
+    "paired_seeds_per_world": 10,
+    "rounds": 250,
+    "batch_size": 96,
+    "learning_rate": 0.05,
+    "endpoint_last_rounds": 50,
+    "theta_base": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "theta_jitter_halfwidth": 0.15,
+    "within_group_noise_halfwidth": 0.2,
+    "friction": [
+      1.2,
+      0.0,
+      0.0
+    ],
+    "participation_intercept": 2.0,
+    "participation_floor": 0.02,
+    "participation_span": 0.96,
+    "betas": [
+      0.0,
+      1.5,
+      3.0
+    ],
+    "scenarios": [
+      "main",
+      "symmetric",
+      "no_conflict"
+    ],
+    "conditions": [
+      "endogenous",
+      "static",
+      "quota",
+      "ipw"
+    ],
+    "world_seed": 2026092201,
+    "training_seed": 2026092202,
+    "bootstrap_seed": 2026092203,
+    "bootstrap_resamples": 10000,
+    "primary_comparison": {
+      "scenario": "main",
+      "beta": 3.0,
+      "metric": "g0_risk",
+      "contrast": "endogenous minus static"
+    }
+  },
+  "completed_utc": "2026-09-23T04:35:05.060369+00:00",
+  "elapsed_seconds": 2.6548635000362992,
+  "actual_runs": 7200,
+  "condition_cells": 36,
+  "worlds": 20,
+  "paired_seeds_per_world": 10,
+  "rounds_per_run": 250,
+  "accepted_feedback_per_round": 96,
+  "total_synthetic_feedback_observations": 172800000,
+  "primary_result": {
+    "scenario": "main",
+    "beta": 3.0,
+    "contrast": "endogenous minus static",
+    "metric": "g0_risk",
+    "analysis_role": "primary",
+    "mean": 0.7337720789610263,
+    "ci95_low": 0.5158086270726145,
+    "ci95_high": 0.8971166793550999,
+    "n_worlds": 20
+  },
+  "checks": {
+    "status": "passed",
+    "max_risk_decomposition_error": 5.15673658288418e-16,
+    "max_probability_sum_error": 3.3306690738754696e-16,
+    "max_no_conflict_group_risk_difference": 0.0,
+    "zero_beta_endogenous_static_max_endpoint_difference": 0.0,
+    "quota_count_check": true,
+    "replay_max_action_error": 0.0,
+    "ipw_expectation_max_error": 2.220446049250313e-16
+  },
+  "limitations": [
+    "Synthetic scalar EMA mechanism; no people, LLMs, biology, or clinical outcomes.",
+    "Participation function and equally weighted squared-loss objective are assumptions.",
+    "Learner starts at the complete-information population optimum.",
+    "IPW uses known true propensities; self-normalized ratios can have finite-batch bias.",
+    "Accepted feedback and update budgets match, invitation costs do not.",
+    "Bootstrap resamples 20 worlds after averaging 10 paired seeds within each world.",
+    "Secondary intervals are descriptive and not corrected for multiple comparisons.",
+    "No factual-knowledge or preference-prediction retention was measured."
+  ],
+  "output_hashes": {
+    "checks.json": "79abba1e14efcc3c6f44bf89e8d12b12a395fbf44acc03cb6b4a6ca0b7e56751",
+    "condition_estimates.csv": "970d0dc4c036ccca110f40b9502d719b9b2569d49c7a986aa63479667054c98e",
+    "condition_estimates.json": "4879a237014485771a174584700b6a266520bd541bab8ae16aeef450cef237d9",
+    "contrasts.csv": "6a3221f86fbc8ef306bf35f830a44dff4ed8cec4c1ced9be2d7ad3346ba2c39f",
+    "contrasts.json": "52ddeb881ed9f5a12328c8d87032d00aa34841d63821e75e0e58fe9319d06b90",
+    "execution_start.json": "22a8fbfd757e01842435f47797de4a63694b7ba8d1007011826bc4c4d7c3ddba",
+    "replay_main_beta3_world0_seed0.npz": "191605a9e79a6e8f284214aebcfb6e36d2d733f29a2ac590f4c1096b0bebe514",
+    "run_metrics.csv": "316fe8490199b7530ef814229a4204969c3e29f0cba3a11de3680cb70bafb22d",
+    "trajectories_world.csv": "0fbb937014d9920c4dab6f4cba1b766ba7a5b1ed8a86ea1556ab89d16c8858d3",
+    "world_metrics.csv": "7f8de44809b80fee5c89a15ea8387d6e5631b889caba7c31c22d5e3b945c5e44",
+    "world_parameters.npz": "c4fc3ca4486d79604b14a465b37cded0dd87adfd630df675cf182c516a62b472"
+  }
+}

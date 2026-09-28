@@ -1,0 +1,13 @@
+{
+  "probability_max_sum_error": 3.3306690738754696e-16,
+  "true_ipw_moment_max_error": 2.3245294578089215e-16,
+  "risk_decomposition_max_error": 5.581472783955377e-16,
+  "deterministic_mirror_max_error": 0.0,
+  "fixedpoint_derivative_max_error": 1.0455680765630859e-10,
+  "actual_runs": 4500,
+  "planned_runs_match": true,
+  "max_cost_standardized_difference": 3.16023859696213,
+  "original_input_hashes_unchanged": true,
+  "law_zero_loss_probability_match_error": 0.0,
+  "law_zero_loss_slope_match_error": 0.0
+}

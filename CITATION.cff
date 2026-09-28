@@ -1,20 +1,12 @@
 cff-version: 1.2.0
-message: "Please cite the accompanying working paper and the exact repository version."
+message: "Please cite the exact working-paper and repository version."
 type: software
-title: "Selective feedback and stakeholder responsiveness in adaptive decision systems"
-version: 0.1.0
+title: "Feedback selection and local stability in adaptive decision systems"
+version: 0.2.0
 url: "https://github.com/lingsenyou/feedback-circle-study"
 authors:
   - family-names: "You"
     given-names: "Lingsen"
-  - family-names: "Guo"
-    given-names: "Yujun"
-  - family-names: "Wang"
-    given-names: "Wentong"
-  - family-names: "Peng"
-    given-names: "Zisu"
-  - family-names: "Zhong"
-    given-names: "Xinyu"
   - family-names: "Shen"
     given-names: "Li"
   - family-names: "Ge"

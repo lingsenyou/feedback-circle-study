@@ -1,0 +1,240 @@
+[
+  {
+    "family": "sigmoid",
+    "contrast": "endogenous minus static",
+    "metric": "g0_loss",
+    "mean": "0.7364836016397052",
+    "ci95_low": "0.5175528644500889",
+    "ci95_high": "0.905720301737162",
+    "positive_worlds": "18",
+    "negative_worlds": "2",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "contrast": "endogenous minus static",
+    "metric": "g0_loss",
+    "mean": "0.4510473691553428",
+    "ci95_low": "0.41006609742260586",
+    "ci95_high": "0.4950095845586881",
+    "positive_worlds": "20",
+    "negative_worlds": "0",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "endogenous",
+    "metric": "population_regret",
+    "mean": "0.21812028197265768",
+    "ci95_low": "0.198940596061929",
+    "ci95_high": "0.23617157197669947",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "static",
+    "metric": "population_regret",
+    "mean": "0.02250260695119154",
+    "ci95_low": "0.014919868897708934",
+    "ci95_high": "0.03228616574857485",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "quota",
+    "metric": "population_regret",
+    "mean": "3.734711835995515e-06",
+    "ci95_low": "3.4211645779609497e-06",
+    "ci95_high": "4.050687353758606e-06",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "ipw_true",
+    "metric": "population_regret",
+    "mean": "0.0007130387941915824",
+    "ci95_low": "0.0005697630889419304",
+    "ci95_high": "0.0008772440001451657",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "ipw_omit_friction",
+    "metric": "population_regret",
+    "mean": "0.05024463142639017",
+    "ci95_low": "0.04870667417788312",
+    "ci95_high": "0.05161369062758855",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "ipw_half_sensitivity",
+    "metric": "population_regret",
+    "mean": "0.10181257115882644",
+    "ci95_low": "0.09375047160542756",
+    "ci95_high": "0.11114108995759085",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "endogenous",
+    "metric": "population_regret",
+    "mean": "0.13930186621478044",
+    "ci95_low": "0.12224794467294545",
+    "ci95_high": "0.15773671247271093",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "static",
+    "metric": "population_regret",
+    "mean": "0.04039023216851109",
+    "ci95_low": "0.03440834325127243",
+    "ci95_high": "0.04677751176025592",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "quota",
+    "metric": "population_regret",
+    "mean": "3.734711835995515e-06",
+    "ci95_low": "3.4211645779609497e-06",
+    "ci95_high": "4.050687353758606e-06",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "ipw_true",
+    "metric": "population_regret",
+    "mean": "0.00029757815407556985",
+    "ci95_low": "0.0002519075674799547",
+    "ci95_high": "0.00034647651087000604",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "ipw_omit_friction",
+    "metric": "population_regret",
+    "mean": "0.0927008876766541",
+    "ci95_low": "0.0821367598522102",
+    "ci95_high": "0.10411338972291781",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "ipw_half_sensitivity",
+    "metric": "population_regret",
+    "mean": "0.019617378104745807",
+    "ci95_low": "0.015381674851429881",
+    "ci95_high": "0.024267109063392522",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "endogenous",
+    "metric": "expected_invites_per_accepted",
+    "mean": "1.9834118737318192",
+    "ci95_low": "1.927769977824638",
+    "ci95_high": "2.055527906953412",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "static",
+    "metric": "expected_invites_per_accepted",
+    "mean": "2.4473682472130163",
+    "ci95_low": "2.3715449628562597",
+    "ci95_high": "2.525437982140208",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "quota",
+    "metric": "expected_invites_per_accepted",
+    "mean": "5.10303643782567",
+    "ci95_low": "4.585343346646391",
+    "ci95_high": "5.6572490506503605",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "ipw_true",
+    "metric": "expected_invites_per_accepted",
+    "mean": "2.4318432078273617",
+    "ci95_low": "2.357618757641669",
+    "ci95_high": "2.5089619195715",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "ipw_omit_friction",
+    "metric": "expected_invites_per_accepted",
+    "mean": "2.142013867894852",
+    "ci95_low": "2.082264441758805",
+    "ci95_high": "2.2054032813634943",
+    "n_worlds": "20"
+  },
+  {
+    "family": "sigmoid",
+    "condition": "ipw_half_sensitivity",
+    "metric": "expected_invites_per_accepted",
+    "mean": "2.060120422803339",
+    "ci95_low": "2.001352862837113",
+    "ci95_high": "2.1258175260317396",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "endogenous",
+    "metric": "expected_invites_per_accepted",
+    "mean": "1.7649299888645795",
+    "ci95_low": "1.7460440025445227",
+    "ci95_high": "1.7843467263447232",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "static",
+    "metric": "expected_invites_per_accepted",
+    "mean": "1.7308206165737634",
+    "ci95_low": "1.7093782422559822",
+    "ci95_high": "1.752617990874612",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "quota",
+    "metric": "expected_invites_per_accepted",
+    "mean": "2.1885799331446285",
+    "ci95_low": "2.1235921092003585",
+    "ci95_high": "2.2571839183459046",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "ipw_true",
+    "metric": "expected_invites_per_accepted",
+    "mean": "1.731002039613103",
+    "ci95_low": "1.709592700329653",
+    "ci95_high": "1.7527363229283386",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "ipw_omit_friction",
+    "metric": "expected_invites_per_accepted",
+    "mean": "1.7553950733524974",
+    "ci95_low": "1.7358384642339229",
+    "ci95_high": "1.7754375999502168",
+    "n_worlds": "20"
+  },
+  {
+    "family": "matched_exponential",
+    "condition": "ipw_half_sensitivity",
+    "metric": "expected_invites_per_accepted",
+    "mean": "1.737516220283652",
+    "ci95_low": "1.7174099083332204",
+    "ci95_high": "1.7581021871357136",
+    "n_worlds": "20"
+  }
+]

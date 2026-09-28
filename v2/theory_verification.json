@@ -1,0 +1,206 @@
+{
+  "status": "passed",
+  "scope": "Post-hoc analytic formula checks and numerical mean-map diagnostics; no claim of stochastic convergence or complete root enumeration.",
+  "derivative_random_seed": 20260927081,
+  "central_stability_crossings": [
+    1.9518425028502513,
+    4.691120421725749
+  ],
+  "mean_map_cases": [
+    {
+      "beta": 1.5,
+      "central_closed_form_m_prime": 0.6509062600623005,
+      "roots": [
+        {
+          "root": -8.271806125530277e-28,
+          "m_prime": 0.6509062600623006,
+          "F_prime": 0.982545313003115,
+          "locally_stable": true,
+          "sampling_weights": [
+            0.2933743656147227,
+            0.4132512687705546,
+            0.2933743656147227
+          ]
+        }
+      ]
+    },
+    {
+      "beta": 3,
+      "central_closed_form_m_prime": 1.5844493963851574,
+      "roots": [
+        {
+          "root": -0.45385133322126614,
+          "m_prime": 0.4337511865783049,
+          "F_prime": 0.9716875593289152,
+          "locally_stable": true,
+          "sampling_weights": [
+            0.47444938320943547,
+            0.5049525668023951,
+            0.020598049988169304
+          ]
+        },
+        {
+          "root": -1.1102230246334282e-16,
+          "m_prime": 1.584449396385157,
+          "F_prime": 1.0292224698192578,
+          "locally_stable": false,
+          "sampling_weights": [
+            0.19296309518466245,
+            0.6140738096306754,
+            0.19296309518466223
+          ]
+        },
+        {
+          "root": 0.45385133322126614,
+          "m_prime": 0.433751186578305,
+          "F_prime": 0.9716875593289152,
+          "locally_stable": true,
+          "sampling_weights": [
+            0.02059804998816931,
+            0.5049525668023952,
+            0.4744493832094355
+          ]
+        }
+      ]
+    },
+    {
+      "beta": 5,
+      "central_closed_form_m_prime": 0.8296124345212977,
+      "roots": [
+        {
+          "root": -2.0816681711804402e-16,
+          "m_prime": 0.8296124345212978,
+          "F_prime": 0.9914806217260649,
+          "locally_stable": true,
+          "sampling_weights": [
+            0.06373536177608266,
+            0.8725292764478348,
+            0.06373536177608245
+          ]
+        }
+      ]
+    },
+    {
+      "beta": 8,
+      "central_closed_form_m_prime": 0.07582489330111221,
+      "roots": [
+        {
+          "root": -0.9255883072331241,
+          "m_prime": 0.11266384297151914,
+          "F_prime": 0.9556331921485759,
+          "locally_stable": true,
+          "sampling_weights": [
+            0.9479063380125119,
+            0.029775631208100423,
+            0.022318030779387724
+          ]
+        },
+        {
+          "root": -0.5319972336839589,
+          "m_prime": 1.9539561972013284,
+          "F_prime": 1.0476978098600664,
+          "locally_stable": false,
+          "sampling_weights": [
+            0.552705102965349,
+            0.42658702775326046,
+            0.02070786928139034
+          ]
+        },
+        {
+          "root": -8.271806125530277e-28,
+          "m_prime": 0.07582489330111221,
+          "F_prime": 0.9537912446650556,
+          "locally_stable": true,
+          "sampling_weights": [
+            0.02463071227957528,
+            0.9507385754408493,
+            0.02463071227957528
+          ]
+        },
+        {
+          "root": 0.5319972336839589,
+          "m_prime": 1.9539561972013288,
+          "F_prime": 1.0476978098600664,
+          "locally_stable": false,
+          "sampling_weights": [
+            0.020707869281390342,
+            0.4265870277532606,
+            0.5527051029653491
+          ]
+        },
+        {
+          "root": 0.9255883072331241,
+          "m_prime": 0.11266384297151914,
+          "F_prime": 0.9556331921485759,
+          "locally_stable": true,
+          "sampling_weights": [
+            0.022318030779387724,
+            0.029775631208100423,
+            0.9479063380125119
+          ]
+        }
+      ]
+    }
+  ],
+  "max_covariance_derivative_fd_error": 2.4931940956207654e-09,
+  "max_actual_theta_derivative_fd_error": 1.7124919260425031e-09,
+  "max_exponential_identity_fd_error": 4.2365666530486124e-10,
+  "feedback_only_response_checks": [
+    {
+      "root": -0.45385133322126614,
+      "group": 0,
+      "one_step_direct": 0.023722469160471774,
+      "frozen_weight_equilibrium": 0.47444938320943547,
+      "closed_loop_equilibrium": 0.8378814612298445,
+      "finite_difference_closed_loop": 0.8378814613962947,
+      "absolute_error": 1.664501869669266e-10
+    },
+    {
+      "root": -0.45385133322126614,
+      "group": 1,
+      "one_step_direct": 0.025247628340119756,
+      "frozen_weight_equilibrium": 0.5049525668023951,
+      "closed_loop_equilibrium": 0.891750331009256,
+      "finite_difference_closed_loop": 0.8917503314886942,
+      "absolute_error": 4.794381558426153e-10
+    },
+    {
+      "root": -0.45385133322126614,
+      "group": 2,
+      "one_step_direct": 0.0010299024994084652,
+      "frozen_weight_equilibrium": 0.020598049988169304,
+      "closed_loop_equilibrium": 0.03637632344640268,
+      "finite_difference_closed_loop": 0.0363763234423331,
+      "absolute_error": 4.0695780079147426e-12
+    },
+    {
+      "root": 0.45385133322126614,
+      "group": 0,
+      "one_step_direct": 0.0010299024994084656,
+      "frozen_weight_equilibrium": 0.02059804998816931,
+      "closed_loop_equilibrium": 0.0363763234464027,
+      "finite_difference_closed_loop": 0.03637632344788422,
+      "absolute_error": 1.4815162985293284e-12
+    },
+    {
+      "root": 0.45385133322126614,
+      "group": 1,
+      "one_step_direct": 0.02524762834011976,
+      "frozen_weight_equilibrium": 0.5049525668023952,
+      "closed_loop_equilibrium": 0.8917503310092565,
+      "finite_difference_closed_loop": 0.8917503314831431,
+      "absolute_error": 4.738865966302797e-10
+    },
+    {
+      "root": 0.45385133322126614,
+      "group": 2,
+      "one_step_direct": 0.023722469160471778,
+      "frozen_weight_equilibrium": 0.4744493832094355,
+      "closed_loop_equilibrium": 0.8378814612298447,
+      "finite_difference_closed_loop": 0.8378814613851925,
+      "absolute_error": 1.553477346760701e-10
+    }
+  ],
+  "max_monitoring_identity_error": 1.4710455076283324e-15,
+  "common_decreasing_participation_sign_violations": 0
+}

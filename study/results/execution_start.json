@@ -1,0 +1,62 @@
+{
+  "study_version": "1.0.0",
+  "recorded_before_main_execution_utc": "2026-09-23T04:35:02.404389+00:00",
+  "record_type": "local pre-execution record, not public preregistration",
+  "config_sha256": "1b3851e12de93c8de747b961049b7303ead7a9ebbb57bff8b4b1e9226e98cb82",
+  "protocol_sha256": "da4b0ac2459a096bed7c3a5f134b74a73c2433371701df91be4e31811214fc28",
+  "code_sha256": "2ea601beeaaac9dd12cb3b90cf2f4855fb3efc433bc60d9b9bcb77f25caf411f",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "planned_runs": 7200,
+  "config": {
+    "study_version": "1.0.0",
+    "study_type": "synthetic mechanism simulation",
+    "worlds": 20,
+    "paired_seeds_per_world": 10,
+    "rounds": 250,
+    "batch_size": 96,
+    "learning_rate": 0.05,
+    "endpoint_last_rounds": 50,
+    "theta_base": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "theta_jitter_halfwidth": 0.15,
+    "within_group_noise_halfwidth": 0.2,
+    "friction": [
+      1.2,
+      0.0,
+      0.0
+    ],
+    "participation_intercept": 2.0,
+    "participation_floor": 0.02,
+    "participation_span": 0.96,
+    "betas": [
+      0.0,
+      1.5,
+      3.0
+    ],
+    "scenarios": [
+      "main",
+      "symmetric",
+      "no_conflict"
+    ],
+    "conditions": [
+      "endogenous",
+      "static",
+      "quota",
+      "ipw"
+    ],
+    "world_seed": 2026092201,
+    "training_seed": 2026092202,
+    "bootstrap_seed": 2026092203,
+    "bootstrap_resamples": 10000,
+    "primary_comparison": {
+      "scenario": "main",
+      "beta": 3.0,
+      "metric": "g0_risk",
+      "contrast": "endogenous minus static"
+    }
+  }
+}

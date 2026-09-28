@@ -1,0 +1,26 @@
+{
+  "visual_review": "All three final study figures inspected. Axis labels, confidence intervals, legends, and evidence-status text checked.",
+  "svg_text_canvas_bounds": "passed",
+  "plots_from_completed_results_only": true,
+  "confidence_intervals": "20 world means; 10 paired seeds per world; 10,000 percentile bootstrap samples; trajectories pointwise.",
+  "figures": [
+    {
+      "figure": "figure2_study_design",
+      "svg_sha256": "b96bb5967343f979f27f77c1bbff4dace3ef53e51623b7ca168b8be38b9b2824",
+      "png_sha256": "ea95a2edc29d06d190f50c4d6bd70f992e8ab39c6897c59e3ef0953c89f4256f",
+      "visually_reviewed": true
+    },
+    {
+      "figure": "figure3_trajectories",
+      "svg_sha256": "764f7ab6391a8694f13f25d07be83525e64eda1b86ec0ced497ce347bdc53f10",
+      "png_sha256": "891bed7135a77ed98a4adc999f2849d69914c743311894024a433cf0f25e06a4",
+      "visually_reviewed": true
+    },
+    {
+      "figure": "figure4_effects_controls",
+      "svg_sha256": "b5fb403f878923a3e2869ccc1b0da1a6ee052bf4fa685f12c9c03f145d08e69e",
+      "png_sha256": "18a3d5122d31739241d6cbec58f6ad387d18f51553f5313f60463d86514bc629",
+      "visually_reviewed": true
+    }
+  ]
+}

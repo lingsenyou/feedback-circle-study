@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "actual_run_rows": 7200,
+  "world_rows": 720,
+  "max_saved_metric_identity_error": 7.771561172376096e-16,
+  "max_world_mean_error": 8.881784197001252e-16,
+  "primary_recalculation_error": 0.0,
+  "closed_form_replay_error": 1.1102230246251565e-16,
+  "pre_execution_hashes_still_match": {
+    "run_study.py": true,
+    "PROTOCOL.md": true,
+    "config.json": true
+  },
+  "scope": "Independent audit of saved CSV/NPZ data, group aggregation, bootstrap interval, and closed-form replay."
+}

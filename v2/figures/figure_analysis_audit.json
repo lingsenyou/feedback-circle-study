@@ -1,0 +1,39 @@
+{
+  "executed_utc": "2026-09-28T05:04:11.548850+00:00",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.2",
+  "heterogeneity": {
+    "primary_mean": 0.7337720789610263,
+    "negative_worlds": [
+      10,
+      11
+    ]
+  },
+  "stability": {
+    "largest_root_residual": 4.638289752278979e-12,
+    "roots_beta3": [
+      -0.45385133322,
+      0.0,
+      0.45385133322
+    ],
+    "roots_beta8": [
+      -0.92558830723,
+      -0.53199723368,
+      0.0,
+      0.53199723368,
+      0.92558830723
+    ],
+    "note": "Exploratory numerical roots and conditional-mean paths; no stochastic convergence claim."
+  },
+  "extension": {
+    "conditions": [
+      "endogenous",
+      "static",
+      "quota",
+      "ipw_true",
+      "ipw_omit_friction",
+      "ipw_half_sensitivity"
+    ],
+    "note": "New 1000-round exploratory extension; endpoint rounds 951-1000; intervals over the same 20 worlds."
+  }
+}

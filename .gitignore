@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .venv/
 reproduced-results/
+
+results_reproduced/
+_deps/

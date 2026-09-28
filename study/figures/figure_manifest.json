@@ -1,0 +1,49 @@
+{
+  "source": "Completed synthetic scalar simulation; no human or LLM data",
+  "figures": [
+    {
+      "name": "figure2_study_design",
+      "width_in": 6.5,
+      "height_in": 4.7,
+      "png_pixels": [
+        2600,
+        1880
+      ],
+      "min_font_pt_at_6_5_in": 9.0,
+      "description": "Implemented synthetic scalar-agent experiment"
+    },
+    {
+      "name": "figure3_trajectories",
+      "width_in": 6.5,
+      "height_in": 4.4,
+      "png_pixels": [
+        2600,
+        1760
+      ],
+      "min_font_pt_at_6_5_in": 9.0,
+      "description": "Measured simulation trajectories with world-bootstrap uncertainty"
+    },
+    {
+      "name": "figure4_effects_controls",
+      "width_in": 6.5,
+      "height_in": 4.5,
+      "png_pixels": [
+        2600,
+        1800
+      ],
+      "min_font_pt_at_6_5_in": 9.0,
+      "description": "Paired intervention contrasts and mechanism controls from the simulation"
+    }
+  ],
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 2026092203,
+  "uncertainty_unit": "20 independent world means; each averages 10 paired seeds",
+  "trajectory_intervals": "pointwise percentile intervals, not simultaneous bands",
+  "trajectory_connections": "Straight line segments between recorded time points; no smoothing",
+  "effect_direction": "endogenous minus comparator; IPW source contrast sign reversed consistently",
+  "source_sha256": {
+    "trajectories_world.csv": "0fbb937014d9920c4dab6f4cba1b766ba7a5b1ed8a86ea1556ab89d16c8858d3",
+    "contrasts.csv": "6a3221f86fbc8ef306bf35f830a44dff4ed8cec4c1ced9be2d7ad3346ba2c39f",
+    "summary.json": "c9fa2c39dfede8284ed20e357ad6b1b44621b3be7a608c3b800c1fcb0811e7d8"
+  }
+}

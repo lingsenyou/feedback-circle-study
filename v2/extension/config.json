@@ -1,0 +1,40 @@
+{
+  "extension_version": "2.0.0-exploratory",
+  "status": "post-hoc exploratory extension after inspection of original results",
+  "original_results_relative": "../../study/results",
+  "learning_rate": 0.05,
+  "batch_size": 96,
+  "rounds": 1000,
+  "endpoint_last_rounds": 50,
+  "noise_halfwidth": 0.2,
+  "participation_floor": 0.02,
+  "participation_span": 0.96,
+  "participation_intercept": 2.0,
+  "main": {
+    "worlds": 20,
+    "seeds_per_world": 10,
+    "friction": [1.2, 0.0, 0.0],
+    "strength_anchors": [3.0],
+    "families": ["sigmoid", "matched_exponential"],
+    "conditions": ["endogenous", "static", "quota", "ipw_true", "ipw_omit_friction", "ipw_half_sensitivity"],
+    "initial_action": "original-world equally weighted population optimum",
+    "training_seed": 202609270701
+  },
+  "symmetric": {
+    "theta": [-1.0, 0.0, 1.0],
+    "friction": [0.0, 0.0, 0.0],
+    "betas": [1.5, 3.0, 8.0],
+    "initial_actions": [-0.75, -0.25, -0.01, 0.0, 0.01, 0.25, 0.75],
+    "conditions": ["endogenous", "static"],
+    "seeds": 50,
+    "training_seed": 202609270702
+  },
+  "invitation_seed": 202609270703,
+  "bootstrap_seed": 202609270704,
+  "bootstrap_resamples": 10000,
+  "trajectory_every": 10,
+  "deterministic_rounds": 5000,
+  "root_grid_points": 12001,
+  "planned_new_stochastic_runs": 4500,
+  "recruitment": "Uniform independent prospective invitations until B successes for natural sampling; targeted invitations until B/3 successes per group for quota. Probabilities fixed within a round. Simulate negative-binomial stopping costs independently of accepted preference values."
+}

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6.5in" height="4.700in" viewBox="0 0 1300 940">
+<title>Implemented synthetic scalar-agent experiment</title>
+<desc>Synthetic scalar-agent simulation; no human, clinical, or language-model data.</desc>
+<rect width="1300" height="940" fill="white"/>
+<rect x="30" y="24" width="39" height="39" rx="9" fill="#17354C" stroke="#17354C" stroke-width="0"/>
+<text x="49.5" y="52.50" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+<text x="84" y="54.50" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#17354C" text-anchor="start">Synthetic preferences, access, and scalar adaptation</text>
+<rect x="30" y="103" width="380" height="186" rx="16" fill="#F4F7F9" stroke="#17354C" stroke-width="2"/>
+<text x="220" y="145.50" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#17354C" text-anchor="middle">Three synthetic groups</text>
+<text x="220" y="197.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Equal population weights: 1/3</text>
+<text x="220" y="229.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Distinct optima with conflict</text>
+<text x="220" y="261.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Synthetic participants only</text>
+<rect x="460" y="103" width="380" height="186" rx="16" fill="#F2EEF8" stroke="#755AA6" stroke-width="2"/>
+<text x="650" y="145.50" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#755AA6" text-anchor="middle">Feedback participation</text>
+<text x="650" y="197.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Experience and access costs</text>
+<text x="650" y="229.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Selection sensitivity: 0, 1.5, 3</text>
+<text x="650" y="261.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Three prespecified scenarios</text>
+<rect x="890" y="103" width="380" height="186" rx="16" fill="#EAF5F4" stroke="#087F8C" stroke-width="2"/>
+<text x="1080" y="145.50" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#087F8C" text-anchor="middle">Scalar model updates</text>
+<text x="1080" y="197.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Exponential moving average</text>
+<text x="1080" y="229.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Learning rate: 0.05</text>
+<text x="1080" y="261.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">250 rounds; batch size: 96</text>
+<polyline points="421,198 446,198" fill="none" stroke="#51616F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="446.00,198.00 436.00,193.00 436.00,203.00" fill="#51616F"/>
+<polyline points="851,198 876,198" fill="none" stroke="#51616F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="876.00,198.00 866.00,193.00 866.00,203.00" fill="#51616F"/>
+<rect x="30" y="342" width="39" height="39" rx="9" fill="#17354C" stroke="#17354C" stroke-width="0"/>
+<text x="49.5" y="370.50" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+<text x="84" y="372.50" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#17354C" text-anchor="start">Four paired conditions in each world and seed</text>
+<rect x="30" y="414" width="280" height="191" rx="16" fill="#F4F7F9" stroke="#17354C" stroke-width="2"/>
+<text x="170" y="457.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#17354C" text-anchor="middle">Endogenous</text>
+<text x="170" y="512.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Outcome-dependent</text>
+<text x="170" y="544.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">participation;</text>
+<text x="170" y="576.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">fixed batch size</text>
+<rect x="350" y="414" width="280" height="191" rx="16" fill="#F2EEF8" stroke="#755AA6" stroke-width="2"/>
+<text x="490" y="457.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#755AA6" text-anchor="middle">Static loop-off</text>
+<text x="490" y="512.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Participation fixed</text>
+<text x="490" y="544.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">at its initial values;</text>
+<text x="490" y="576.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">same update rule</text>
+<rect x="670" y="414" width="280" height="191" rx="16" fill="#EAF5F4" stroke="#087F8C" stroke-width="2"/>
+<text x="810" y="457.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#087F8C" text-anchor="middle">Balanced quota</text>
+<text x="810" y="512.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Accept 32 samples</text>
+<text x="810" y="544.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">from each group</text>
+<text x="810" y="576.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">per round</text>
+<rect x="990" y="414" width="280" height="191" rx="16" fill="#FFF4DE" stroke="#AE701B" stroke-width="2"/>
+<text x="1130" y="457.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#AE701B" text-anchor="middle">Inverse weighting</text>
+<text x="1130" y="512.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Reweight sampled</text>
+<text x="1130" y="544.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">feedback using</text>
+<text x="1130" y="576.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">known propensities</text>
+<rect x="30" y="650" width="39" height="39" rx="9" fill="#17354C" stroke="#17354C" stroke-width="0"/>
+<text x="49.5" y="678.50" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="middle">C</text>
+<text x="84" y="680.50" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#17354C" text-anchor="start">Evaluation is independent of who supplies feedback</text>
+<rect x="30" y="717" width="1240" height="128" rx="16" fill="#FFFFFF" stroke="#087F8C" stroke-width="2"/>
+<text x="650" y="759.50" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#087F8C" text-anchor="middle">Fixed equal-population loss and separate losses for every group</text>
+<text x="650" y="803.00" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#17354C" text-anchor="middle">20 independent worlds × 10 paired seeds per condition</text>
+<text x="650" y="835.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="middle">Uncertainty is evaluated across world means, not across individual rounds</text>
+<polyline points="30,884 1270,884" fill="none" stroke="#D8E2E8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="30" y="919.00" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#51616F" text-anchor="start">Implemented design in a synthetic scalar task; clinical and language-model claims are not tested.</text>
+</svg>

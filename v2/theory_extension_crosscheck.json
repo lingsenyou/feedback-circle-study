@@ -1,0 +1,227 @@
+{
+  "status": "passed",
+  "scope": "Independent review of formulas, aggregation, bootstrap, counts, quota allocations, cost summaries and weight misspecification; does not rerun full main simulation or import its code.",
+  "run_counts": {
+    "main_extension": 2400,
+    "exact_symmetric": 2100
+  },
+  "max_errors": {
+    "world_aggregation": 5.684341886080802e-14,
+    "condition_estimates": 0.0,
+    "contrasts": 0.0,
+    "population_decomposition": 1.1102230246251565e-15,
+    "monitoring_gap_identity": 8.881784197001252e-16,
+    "quota_shares": 7.105427357601002e-14,
+    "cost_aggregation": 1.1941558852868184e-12
+  },
+  "all_seed_counts_correct": true,
+  "all_contrast_sign_counts_correct": true,
+  "all_symmetric_branch_counts_correct": true,
+  "negative_endpoint_variance_count": 0,
+  "hash_checks": {
+    "protocol": true,
+    "config": true,
+    "code": true,
+    "all_recorded_outputs": true
+  },
+  "law_matching": [
+    {
+      "friction": 0,
+      "sigmoid_probability_at_zero": 0.865565194858767,
+      "exponential_probability_at_zero": 0.865565194858767,
+      "sigmoid_loss_derivative_fd": -0.3023815259295404,
+      "exponential_loss_derivative_fd": -0.3023815259850515,
+      "analytic_common_slope": -0.30238152596209905,
+      "probabilities_at_L1": [
+        0.27818376451519533,
+        0.6113431691518416
+      ]
+    },
+    {
+      "friction": 1.2,
+      "sigmoid_probability_at_zero": 0.682375501882508,
+      "exponential_probability_at_zero": 0.682375501882508,
+      "sigmoid_loss_derivative_fd": -0.6160599259619204,
+      "exponential_loss_derivative_fd": -0.6160599260174315,
+      "analytic_common_slope": -0.6160599259784478,
+      "probabilities_at_L1": [
+        0.11576046955489773,
+        0.281322705178884
+      ]
+    }
+  ],
+  "initial_weighting_targets": [
+    {
+      "family": "sigmoid",
+      "condition": "ipw_true",
+      "mean_initial_ratio_of_moments_bias": 8.82811618946322e-18,
+      "max_abs_bias": 8.066464163292153e-17
+    },
+    {
+      "family": "sigmoid",
+      "condition": "ipw_omit_friction",
+      "mean_initial_ratio_of_moments_bias": 0.24517371340792327,
+      "max_abs_bias": 0.2690835410890611
+    },
+    {
+      "family": "sigmoid",
+      "condition": "ipw_half_sensitivity",
+      "mean_initial_ratio_of_moments_bias": 0.06204318831518811,
+      "max_abs_bias": 0.20669601669192095
+    },
+    {
+      "family": "matched_exponential",
+      "condition": "ipw_true",
+      "mean_initial_ratio_of_moments_bias": -9.690056916589196e-18,
+      "max_abs_bias": 5.551115123125783e-17
+    },
+    {
+      "family": "matched_exponential",
+      "condition": "ipw_omit_friction",
+      "mean_initial_ratio_of_moments_bias": 0.23043618432717977,
+      "max_abs_bias": 0.2818456511036689
+    },
+    {
+      "family": "matched_exponential",
+      "condition": "ipw_half_sensitivity",
+      "mean_initial_ratio_of_moments_bias": 0.08539437149536075,
+      "max_abs_bias": 0.12710960672914254
+    }
+  ],
+  "key_recomputed_contrasts": [
+    {
+      "family": "sigmoid",
+      "contrast": "endogenous minus static",
+      "metric": "g0_loss",
+      "mean": "0.7364836016397052",
+      "ci95_low": "0.5175528644500889",
+      "ci95_high": "0.905720301737162",
+      "positive_worlds": "18",
+      "negative_worlds": "2",
+      "n_worlds": "20"
+    },
+    {
+      "family": "sigmoid",
+      "contrast": "endogenous minus static",
+      "metric": "population_regret",
+      "mean": "0.19561767502146615",
+      "ci95_low": "0.17918319866707855",
+      "ci95_high": "0.21191617245240493",
+      "positive_worlds": "20",
+      "negative_worlds": "0",
+      "n_worlds": "20"
+    },
+    {
+      "family": "sigmoid",
+      "contrast": "ipw_omit_friction minus ipw_true",
+      "metric": "g0_loss",
+      "mean": "0.4811466635181487",
+      "ci95_low": "0.47430648414573584",
+      "ci95_high": "0.4872494571993605",
+      "positive_worlds": "20",
+      "negative_worlds": "0",
+      "n_worlds": "20"
+    },
+    {
+      "family": "sigmoid",
+      "contrast": "ipw_omit_friction minus ipw_true",
+      "metric": "population_regret",
+      "mean": "0.04953159263219859",
+      "ci95_low": "0.04789870693313229",
+      "ci95_high": "0.050987184661214886",
+      "positive_worlds": "20",
+      "negative_worlds": "0",
+      "n_worlds": "20"
+    },
+    {
+      "family": "sigmoid",
+      "contrast": "ipw_half_sensitivity minus ipw_true",
+      "metric": "g0_loss",
+      "mean": "0.5735767117811066",
+      "ci95_low": "0.3703416606173938",
+      "ci95_high": "0.7187503102600699",
+      "positive_worlds": "18",
+      "negative_worlds": "2",
+      "n_worlds": "20"
+    },
+    {
+      "family": "sigmoid",
+      "contrast": "ipw_half_sensitivity minus ipw_true",
+      "metric": "population_regret",
+      "mean": "0.10109953236463487",
+      "ci95_low": "0.09305666675739996",
+      "ci95_high": "0.11040609121734292",
+      "positive_worlds": "20",
+      "negative_worlds": "0",
+      "n_worlds": "20"
+    },
+    {
+      "family": "matched_exponential",
+      "contrast": "endogenous minus static",
+      "metric": "g0_loss",
+      "mean": "0.4510473691553428",
+      "ci95_low": "0.41006609742260586",
+      "ci95_high": "0.4950095845586881",
+      "positive_worlds": "20",
+      "negative_worlds": "0",
+      "n_worlds": "20"
+    },
+    {
+      "family": "matched_exponential",
+      "contrast": "endogenous minus static",
+      "metric": "population_regret",
+      "mean": "0.09891163404626936",
+      "ci95_low": "0.08723435897653002",
+      "ci95_high": "0.1115199591581661",
+      "positive_worlds": "20",
+      "negative_worlds": "0",
+      "n_worlds": "20"
+    },
+    {
+      "family": "matched_exponential",
+      "contrast": "ipw_omit_friction minus ipw_true",
+      "metric": "g0_loss",
+      "mean": "0.7030405395157803",
+      "ci95_low": "0.6431463567669778",
+      "ci95_high": "0.7677583354286819",
+      "positive_worlds": "20",
+      "negative_worlds": "0",
+      "n_worlds": "20"
+    },
+    {
+      "family": "matched_exponential",
+      "contrast": "ipw_omit_friction minus ipw_true",
+      "metric": "population_regret",
+      "mean": "0.09240330952257851",
+      "ci95_low": "0.08186979641627472",
+      "ci95_high": "0.10379806450291149",
+      "positive_worlds": "20",
+      "negative_worlds": "0",
+      "n_worlds": "20"
+    },
+    {
+      "family": "matched_exponential",
+      "contrast": "ipw_half_sensitivity minus ipw_true",
+      "metric": "g0_loss",
+      "mean": "0.28889860960939384",
+      "ci95_low": "0.2483425303704021",
+      "ci95_high": "0.3326408288081081",
+      "positive_worlds": "20",
+      "negative_worlds": "0",
+      "n_worlds": "20"
+    },
+    {
+      "family": "matched_exponential",
+      "contrast": "ipw_half_sensitivity minus ipw_true",
+      "metric": "population_regret",
+      "mean": "0.01931979995067024",
+      "ci95_low": "0.015106519042419915",
+      "ci95_high": "0.023929151606256416",
+      "positive_worlds": "20",
+      "negative_worlds": "0",
+      "n_worlds": "20"
+    }
+  ],
+  "cost_max_abs_standardized_difference": 3.1602385969613795,
+  "minor_provenance_gap": "Protocol says original configuration is hashed, but execution_start hashes selected original result files only; original configuration is embedded inside hashed original summary. No result-changing issue."
+}

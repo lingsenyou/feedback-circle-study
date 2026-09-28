@@ -1,0 +1,17 @@
+{
+  "csv_byte_matches": {
+    "condition_estimates.csv": true,
+    "contrasts.csv": true,
+    "deterministic_trajectories.csv": true,
+    "fixed_points.csv": true,
+    "invitation_cost_checks.csv": true,
+    "original_primary_run_contrasts.csv": true,
+    "original_primary_trajectories.csv": true,
+    "original_world_geometry.csv": true,
+    "run_metrics.csv": true,
+    "symmetric_seed_summaries.csv": true,
+    "trajectories_world.csv": true,
+    "world_metrics.csv": true
+  },
+  "all_matched": true
+}

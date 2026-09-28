@@ -1,0 +1,189 @@
+{
+  "status": "passed",
+  "scope": "Independent scalar loop for main beta=3 world=0 seed=0 all four conditions; all-world primary CI from run CSV",
+  "imports_main_study_code": false,
+  "hash_matches": {
+    "run_study.py": true,
+    "config.json": true,
+    "PROTOCOL.md": true
+  },
+  "scalar_checks": [
+    {
+      "condition": "endogenous",
+      "max_absolute_error": 2.220446049250313e-16,
+      "errors": {
+        "g0_risk": 0.0,
+        "g1_risk": 5.551115123125783e-17,
+        "g2_risk": 0.0,
+        "population_risk": 0.0,
+        "population_regret": 0.0,
+        "feedback_weighted_risk": 5.551115123125783e-17,
+        "monitoring_gap": 2.220446049250313e-16,
+        "sample_monitoring_gap": 0.0,
+        "g0_feedback_share": 6.938893903907228e-18,
+        "g0_expected_feedback_share": 0.0,
+        "expected_invitations_per_accepted": 2.220446049250313e-16,
+        "action": 5.551115123125783e-17,
+        "action_after_last_update": 0.0,
+        "oracle_action": 3.469446951953614e-17,
+        "oracle_risk": 1.1102230246251565e-16
+      },
+      "independent_metrics": {
+        "g0_risk": 2.5699898339006357,
+        "g1_risk": 0.19922543657636477,
+        "g2_risk": 0.2878438877197661,
+        "population_risk": 1.019019719398922,
+        "population_regret": 0.25209249317331933,
+        "feedback_weighted_risk": 0.27356184036116604,
+        "monitoring_gap": 0.7454578790377562,
+        "sample_monitoring_gap": 0.739489908627158,
+        "g0_feedback_share": 0.016666666666666666,
+        "g0_expected_feedback_share": 0.013451153510038253,
+        "expected_invitations_per_accepted": 1.9253866064098426,
+        "action": 0.4606118498392147,
+        "action_after_last_update": 0.4598022968436524,
+        "oracle_action": -0.04143794588701603,
+        "oracle_risk": 0.7669272262256029
+      }
+    },
+    {
+      "condition": "static",
+      "max_absolute_error": 4.440892098500626e-16,
+      "errors": {
+        "g0_risk": 2.220446049250313e-16,
+        "g1_risk": 6.938893903907228e-18,
+        "g2_risk": 0.0,
+        "population_risk": 1.1102230246251565e-16,
+        "population_regret": 1.3877787807814457e-17,
+        "feedback_weighted_risk": 0.0,
+        "monitoring_gap": 0.0,
+        "sample_monitoring_gap": 2.220446049250313e-16,
+        "g0_feedback_share": 1.3877787807814457e-17,
+        "g0_expected_feedback_share": 6.245004513516506e-17,
+        "expected_invitations_per_accepted": 4.440892098500626e-16,
+        "action": 2.7755575615628914e-17,
+        "action_after_last_update": 0.0,
+        "oracle_action": 3.469446951953614e-17,
+        "oracle_risk": 1.1102230246251565e-16
+      },
+      "independent_metrics": {
+        "g0_risk": 1.6528878689380466,
+        "g1_risk": 0.026045369370732065,
+        "g2_risk": 0.7230128743243527,
+        "population_risk": 0.8006487042110437,
+        "population_regret": 0.03372147798544091,
+        "feedback_weighted_risk": 0.2703506730115926,
+        "monitoring_gap": 0.5302980311994512,
+        "sample_monitoring_gap": 0.5227276757852084,
+        "g0_feedback_share": 0.0675,
+        "g0_expected_feedback_share": 0.06171634988485558,
+        "expected_invitations_per_accepted": 2.553154631847206,
+        "action": 0.1421072365489612,
+        "action_after_last_update": 0.15334379339320908,
+        "oracle_action": -0.04143794588701603,
+        "oracle_risk": 0.7669272262256029
+      }
+    },
+    {
+      "condition": "quota",
+      "max_absolute_error": 1.7763568394002505e-15,
+      "errors": {
+        "g0_risk": 4.440892098500626e-16,
+        "g1_risk": 3.469446951953614e-18,
+        "g2_risk": 2.220446049250313e-16,
+        "population_risk": 3.3306690738754696e-16,
+        "population_regret": 4.235164736271502e-21,
+        "feedback_weighted_risk": 3.3306690738754696e-16,
+        "monitoring_gap": 8.881784197001254e-18,
+        "sample_monitoring_gap": 1.973247953923618e-17,
+        "g0_feedback_share": 2.7755575615628914e-16,
+        "g0_expected_feedback_share": 2.7755575615628914e-16,
+        "expected_invitations_per_accepted": 1.7763568394002505e-15,
+        "action": 0.0,
+        "action_after_last_update": 0.0,
+        "oracle_action": 3.469446951953614e-17,
+        "oracle_risk": 1.1102230246251565e-16
+      },
+      "independent_metrics": {
+        "g0_risk": 1.2163062621064633,
+        "g1_risk": 0.01838158913151823,
+        "g2_risk": 1.0661006377035678,
+        "population_risk": 0.7669294963138499,
+        "population_regret": 2.2700882469714286e-06,
+        "feedback_weighted_risk": 0.7669294963138498,
+        "monitoring_gap": 4.218847493575595e-17,
+        "sample_monitoring_gap": -0.0018865875626451346,
+        "g0_feedback_share": 0.33333333333333326,
+        "g0_expected_feedback_share": 0.33333333333333326,
+        "expected_invitations_per_accepted": 6.356966808775391,
+        "action": -0.041530732576570015,
+        "action_after_last_update": -0.04168037918228384,
+        "oracle_action": -0.04143794588701603,
+        "oracle_risk": 0.7669272262256029
+      }
+    },
+    {
+      "condition": "ipw",
+      "max_absolute_error": 4.440892098500626e-16,
+      "errors": {
+        "g0_risk": 0.0,
+        "g1_risk": 3.469446951953614e-18,
+        "g2_risk": 2.220446049250313e-16,
+        "population_risk": 1.1102230246251565e-16,
+        "population_regret": 1.951563910473908e-18,
+        "feedback_weighted_risk": 5.551115123125783e-17,
+        "monitoring_gap": 5.551115123125783e-17,
+        "sample_monitoring_gap": 5.551115123125783e-17,
+        "g0_feedback_share": 1.3877787807814457e-17,
+        "g0_expected_feedback_share": 0.0,
+        "expected_invitations_per_accepted": 4.440892098500626e-16,
+        "action": 1.3877787807814457e-17,
+        "action_after_last_update": 6.938893903907228e-18,
+        "oracle_action": 3.469446951953614e-17,
+        "oracle_risk": 1.1102230246251565e-16
+      },
+      "independent_metrics": {
+        "g0_risk": 1.152895860231479,
+        "g1_risk": 0.02351451217637345,
+        "g2_risk": 1.127285502472034,
+        "population_risk": 0.7678986249599622,
+        "population_regret": 0.0009713987343592384,
+        "feedback_weighted_risk": 0.3080198619787181,
+        "monitoring_gap": 0.45987876298124397,
+        "sample_monitoring_gap": 0.4557320950541526,
+        "g0_feedback_share": 0.07770833333333332,
+        "g0_expected_feedback_share": 0.07189466030227798,
+        "expected_invitations_per_accepted": 2.599556633090201,
+        "action": -0.07087704603104257,
+        "action_after_last_update": -0.055548771745225885,
+        "oracle_action": -0.04143794588701603,
+        "oracle_risk": 0.7669272262256029
+      }
+    }
+  ],
+  "independent_primary": {
+    "mean": 0.7337720789610265,
+    "ci95_low": 0.5158086270726145,
+    "ci95_high": 0.8971166793551001
+  },
+  "primary_absolute_errors": {
+    "mean": 2.220446049250313e-16,
+    "ci95_low": 0.0,
+    "ci95_high": 2.220446049250313e-16
+  },
+  "bootstrap_unit": "20 parameter worlds; 10 paired seeds averaged within world",
+  "endpoint": "50 pre-update decisions at zero-based rounds 200 through 249; not terminal post-update state",
+  "ipw": "Code uses weights 1/(3*p_g); manuscript uses 1/pi_g. They differ by common sum(pi)/3 and yield the same self-normalized ratio. Ratio is not exactly unbiased.",
+  "monitoring_gap": "Fixed equal-population expected risk minus current-feedback-weighted expected risk; positive values mean optimistic feedback-only monitoring.",
+  "feedback_accounting": {
+    "processed_feedback_instances": 172800000,
+    "base_selection_uniforms": 4800000,
+    "base_preference_noise_draws": 4800000,
+    "note": "Common random numbers are reused across 36 condition/beta/scenario cells; 172.8 million processed instances are not independent data observations."
+  },
+  "required_manuscript_clarifications": [
+    "Define monitoring gap explicitly as J minus feedback-weighted risk, not an unspecified difference between them.",
+    "Describe endpoints as last 50 pre-update decision rounds (201-250), rather than last 50 updates.",
+    "If 172.8 million is mentioned, call it processed synthetic feedback instances across paired runs, not independent observations."
+  ]
+}

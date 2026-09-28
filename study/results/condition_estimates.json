@@ -1,0 +1,4322 @@
+[
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g0_risk",
+    "mean": 1.2184389066558103,
+    "ci95_low": 1.1573281694312119,
+    "ci95_high": 1.2829252446345583,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g1_risk",
+    "mean": 0.02159033384658329,
+    "ci95_low": 0.017780333825382227,
+    "ci95_high": 0.026496645659839772,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g2_risk",
+    "mean": 0.8870096557762495,
+    "ci95_low": 0.8354648432218671,
+    "ci95_high": 0.9409275580866028,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "population_risk",
+    "mean": 0.7090129654262144,
+    "ci95_low": 0.6769048628417046,
+    "ci95_high": 0.7431974936124456,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "population_regret",
+    "mean": 0.00616810687719323,
+    "ci95_low": 0.005819551574963317,
+    "ci95_high": 0.006559433032028546,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.670346566436766,
+    "ci95_low": 0.639736395575012,
+    "ci95_high": 0.7028196415978585,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "monitoring_gap",
+    "mean": 0.03866639898944839,
+    "ci95_low": 0.035862735268651365,
+    "ci95_high": 0.041550062535497985,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.038263531069619286,
+    "ci95_low": 0.0351917397174861,
+    "ci95_high": 0.04163458834289918,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g0_feedback_share",
+    "mean": 0.2828104166666666,
+    "ci95_low": 0.2819114583333333,
+    "ci95_high": 0.2837177083333332,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.2827320638650378,
+    "ci95_low": 0.2827320638650378,
+    "ci95_high": 0.2827320638650378,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2430050452502273,
+    "ci95_low": 1.2430050452502273,
+    "ci95_high": 1.2430050452502273,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "action",
+    "mean": 0.07236220388450329,
+    "ci95_low": 0.046954736981175096,
+    "ci95_high": 0.09591341032215989,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g0_risk",
+    "mean": 1.2184389066558103,
+    "ci95_low": 1.1573281694312119,
+    "ci95_high": 1.2829252446345583,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g1_risk",
+    "mean": 0.02159033384658329,
+    "ci95_low": 0.017780333825382227,
+    "ci95_high": 0.026496645659839772,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g2_risk",
+    "mean": 0.8870096557762495,
+    "ci95_low": 0.8354648432218671,
+    "ci95_high": 0.9409275580866028,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "population_risk",
+    "mean": 0.7090129654262144,
+    "ci95_low": 0.6769048628417046,
+    "ci95_high": 0.7431974936124456,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "population_regret",
+    "mean": 0.00616810687719323,
+    "ci95_low": 0.005819551574963317,
+    "ci95_high": 0.006559433032028546,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.670346566436766,
+    "ci95_low": 0.639736395575012,
+    "ci95_high": 0.7028196415978585,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "monitoring_gap",
+    "mean": 0.03866639898944839,
+    "ci95_low": 0.035862735268651365,
+    "ci95_high": 0.041550062535497985,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.038263531069619286,
+    "ci95_low": 0.0351917397174861,
+    "ci95_high": 0.04163458834289918,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g0_feedback_share",
+    "mean": 0.2828104166666666,
+    "ci95_low": 0.2819114583333333,
+    "ci95_high": 0.2837177083333332,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.2827320638650378,
+    "ci95_low": 0.2827320638650378,
+    "ci95_high": 0.2827320638650378,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2430050452502273,
+    "ci95_low": 1.2430050452502273,
+    "ci95_high": 1.2430050452502273,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "action",
+    "mean": 0.07236220388450329,
+    "ci95_low": 0.046954736981175096,
+    "ci95_high": 0.09591341032215989,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g0_risk",
+    "mean": 1.0545031907371094,
+    "ci95_low": 1.0013271589759158,
+    "ci95_high": 1.1100426734101927,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g1_risk",
+    "mean": 0.01711386153093452,
+    "ci95_low": 0.014613930584382205,
+    "ci95_high": 0.020543465814521548,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g2_risk",
+    "mean": 1.0369289205261578,
+    "ci95_low": 0.9797716634061149,
+    "ci95_high": 1.0967441938450722,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "population_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058898,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "population_regret",
+    "mean": 3.7990490462101834e-06,
+    "ci95_low": 3.3536369328384797e-06,
+    "ci95_high": 4.278546762311991e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058897998,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "monitoring_gap",
+    "mean": 3.7059244561987724e-17,
+    "ci95_low": 3.637090628672012e-17,
+    "ci95_high": 3.780309398848657e-17,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.6004027871872424e-05,
+    "ci95_low": -0.0003727715375793498,
+    "ci95_high": 0.000338683495636137,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g0_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2586992471636234,
+    "ci95_low": 1.2586992471636234,
+    "ci95_high": 1.2586992471636234,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "action",
+    "mean": -0.004820476607059901,
+    "ci95_low": -0.030294797864147228,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g0_risk",
+    "mean": 1.0561318470190861,
+    "ci95_low": 1.0031446332658485,
+    "ci95_high": 1.1119780098096372,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g1_risk",
+    "mean": 0.01720700859368681,
+    "ci95_low": 0.014829069151938839,
+    "ci95_high": 0.02039260261188518,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g2_risk",
+    "mean": 1.0358146493712113,
+    "ci95_low": 0.9776670742223478,
+    "ci95_high": 1.0963075519720344,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "population_risk",
+    "mean": 0.7030511683279949,
+    "ci95_low": 0.6711896681474483,
+    "ci95_high": 0.7369266884646879,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "population_regret",
+    "mean": 0.0002063097789736284,
+    "ci95_low": 0.0001835432247933052,
+    "ci95_high": 0.00023048288364257652,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.6762516724782499,
+    "ci95_low": 0.6454309323338991,
+    "ci95_high": 0.708977965276331,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "monitoring_gap",
+    "mean": 0.026799495849744948,
+    "ci95_low": 0.024514207052308473,
+    "ci95_high": 0.029141050913454845,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.026376985312527156,
+    "ci95_low": 0.023812404376936224,
+    "ci95_high": 0.029305556796563364,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g0_feedback_share",
+    "mean": 0.2828104166666666,
+    "ci95_low": 0.2819114583333333,
+    "ci95_high": 0.2837177083333332,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.2827320638650378,
+    "ci95_low": 0.2827320638650378,
+    "ci95_high": 0.2827320638650378,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2430050452502273,
+    "ci95_low": 1.2430050452502273,
+    "ci95_high": 1.2430050452502273,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "action",
+    "mean": -0.004118336748918784,
+    "ci95_low": -0.029485368790370427,
+    "ci95_high": 0.019521379757879997,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g0_risk",
+    "mean": 2.0055173965010953,
+    "ci95_low": 1.8558765281093752,
+    "ci95_high": 2.1636760573383538,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g1_risk",
+    "mean": 0.16017252108279723,
+    "ci95_low": 0.1411842529503031,
+    "ci95_high": 0.18045228449590162,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g2_risk",
+    "mean": 0.40574198900843683,
+    "ci95_low": 0.36737913362005437,
+    "ci95_high": 0.4480623375445025,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "population_risk",
+    "mean": 0.8571439688641099,
+    "ci95_low": 0.8064914706129953,
+    "ci95_high": 0.9111502871635168,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "population_regret",
+    "mean": 0.15429911031508858,
+    "ci95_low": 0.13279754037694086,
+    "ci95_high": 0.1770354077677737,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.39190453170594075,
+    "ci95_low": 0.3667066076316332,
+    "ci95_high": 0.4182951182798245,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "monitoring_gap",
+    "mean": 0.4652394371581689,
+    "ci95_low": 0.4077481829508265,
+    "ci95_high": 0.5257194130866807,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.4646475240211373,
+    "ci95_low": 0.40697304391675443,
+    "ci95_high": 0.5253478672094956,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g0_feedback_share",
+    "mean": 0.070721875,
+    "ci95_low": 0.06060510416666667,
+    "ci95_high": 0.08110851562499999,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.07038833622780505,
+    "ci95_low": 0.060342792068822225,
+    "ci95_high": 0.0805806177030461,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.714688074890438,
+    "ci95_low": 1.6952262186516658,
+    "ci95_high": 1.7345704555578432,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "action",
+    "mean": 0.38265445935932724,
+    "ci95_low": 0.34585862204077933,
+    "ci95_high": 0.41845754942228236,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g0_risk",
+    "mean": 1.412660343408303,
+    "ci95_low": 1.3195211437749688,
+    "ci95_high": 1.5095008649946497,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g1_risk",
+    "mean": 0.03734353483943871,
+    "ci95_low": 0.03362635608036187,
+    "ci95_high": 0.04119039369259149,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g2_risk",
+    "mean": 0.7409053164802595,
+    "ci95_low": 0.6796474190192874,
+    "ci95_high": 0.8061364826278914,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "population_risk",
+    "mean": 0.7303030649093337,
+    "ci95_low": 0.6962708093364525,
+    "ci95_high": 0.7663411985156091,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "population_regret",
+    "mean": 0.027458206360312525,
+    "ci95_low": 0.02223093350320439,
+    "ci95_high": 0.033243435393878654,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.5165575239954717,
+    "ci95_low": 0.4994907572181136,
+    "ci95_high": 0.5343098186499989,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "monitoring_gap",
+    "mean": 0.21374554091386191,
+    "ci95_low": 0.18976686309447016,
+    "ci95_high": 0.23930051640373892,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.21334681975695463,
+    "ci95_low": 0.18938331106574938,
+    "ci95_high": 0.23896909541985836,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g0_feedback_share",
+    "mean": 0.17996354166666667,
+    "ci95_low": 0.172968515625,
+    "ci95_high": 0.18673143229166667,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.1798969924060049,
+    "ci95_low": 0.17299254105467937,
+    "ci95_high": 0.1865174087373286,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.6791842741357237,
+    "ci95_low": 1.6496067069915972,
+    "ci95_high": 1.7110944764521694,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "action",
+    "mean": 0.15599148711682229,
+    "ci95_low": 0.12554880993165407,
+    "ci95_high": 0.18472282311732827,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g0_risk",
+    "mean": 1.0545031907371094,
+    "ci95_low": 1.0013271589759158,
+    "ci95_high": 1.1100426734101927,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g1_risk",
+    "mean": 0.01711386153093452,
+    "ci95_low": 0.014613930584382205,
+    "ci95_high": 0.020543465814521548,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g2_risk",
+    "mean": 1.0369289205261578,
+    "ci95_low": 0.9797716634061149,
+    "ci95_high": 1.0967441938450722,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "population_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058898,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "population_regret",
+    "mean": 3.7990490462101834e-06,
+    "ci95_low": 3.3536369328384797e-06,
+    "ci95_high": 4.278546762311991e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058897998,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "monitoring_gap",
+    "mean": 3.7059244561987724e-17,
+    "ci95_low": 3.637090628672012e-17,
+    "ci95_high": 3.780309398848657e-17,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.6004027871872424e-05,
+    "ci95_low": -0.0003727715375793498,
+    "ci95_high": 0.000338683495636137,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g0_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.989530436026063,
+    "ci95_low": 1.9227069354079842,
+    "ci95_high": 2.0630296139783266,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "action",
+    "mean": -0.004820476607059901,
+    "ci95_low": -0.030294797864147228,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g0_risk",
+    "mean": 1.0594057434970137,
+    "ci95_low": 1.0060810868873489,
+    "ci95_high": 1.1158026702364001,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g1_risk",
+    "mean": 0.01725112570698227,
+    "ci95_low": 0.01487414830987347,
+    "ci95_high": 0.020444426622801243,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g2_risk",
+    "mean": 1.0327773826202344,
+    "ci95_low": 0.9747244642715425,
+    "ci95_high": 1.0932651601508896,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "population_risk",
+    "mean": 0.7031447506080768,
+    "ci95_low": 0.6712628797089143,
+    "ci95_high": 0.7370386579026508,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "population_regret",
+    "mean": 0.00029989205905574175,
+    "ci95_low": 0.0002601289217186175,
+    "ci95_high": 0.00034622396069516307,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.5428330568519255,
+    "ci95_low": 0.5262592507179349,
+    "ci95_high": 0.5598250272158141,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "monitoring_gap",
+    "mean": 0.16031169375615145,
+    "ci95_low": 0.14363022993346916,
+    "ci95_high": 0.178546774867301,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.15994843634904748,
+    "ci95_low": 0.14325062840968122,
+    "ci95_high": 0.17804380231441055,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g0_feedback_share",
+    "mean": 0.17922708333333331,
+    "ci95_low": 0.17207278645833332,
+    "ci95_high": 0.18615744791666666,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.17913294632405286,
+    "ci95_low": 0.17213817609798568,
+    "ci95_high": 0.18589023117888048,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.6792350663382458,
+    "ci95_low": 1.649689042155223,
+    "ci95_high": 1.7111021631937664,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "action",
+    "mean": -0.002573276576006661,
+    "ci95_low": -0.027770414496754128,
+    "ci95_high": 0.020953943107747345,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g0_risk",
+    "mean": 2.0784824410392573,
+    "ci95_low": 1.789957114558721,
+    "ci95_high": 2.3114073711150347,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g1_risk",
+    "mean": 0.20358566803735995,
+    "ci95_low": 0.17592998453257566,
+    "ci95_high": 0.22625457402293517,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g2_risk",
+    "mean": 0.4716522199600238,
+    "ci95_low": 0.2809012302424618,
+    "ci95_high": 0.7459735922923406,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "population_risk",
+    "mean": 0.9179067763455473,
+    "ci95_low": 0.8769394822938106,
+    "ci95_high": 0.9623501380981317,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "population_regret",
+    "mean": 0.21506191779652611,
+    "ci95_low": 0.19476026955929288,
+    "ci95_high": 0.23297409076044948,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.2780290722368861,
+    "ci95_low": 0.2586389282843365,
+    "ci95_high": 0.2965142674571722,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "monitoring_gap",
+    "mean": 0.639877704108661,
+    "ci95_low": 0.60377579369726,
+    "ci95_high": 0.6774246275009155,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.639459373882338,
+    "ci95_low": 0.603442936629649,
+    "ci95_high": 0.6768112466896301,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g0_feedback_share",
+    "mean": 0.04330416666666666,
+    "ci95_low": 0.014783307291666659,
+    "ci95_high": 0.08695419270833334,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.043066076317533446,
+    "ci95_low": 0.014775009423128819,
+    "ci95_high": 0.08629007398636791,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.985741890077944,
+    "ci95_low": 1.9290079126658537,
+    "ci95_high": 2.0589106382952846,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "action",
+    "mean": 0.3888888892368908,
+    "ci95_low": 0.26484029213422555,
+    "ci95_high": 0.4821404393565851,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g0_risk",
+    "mean": 1.3447103620782312,
+    "ci95_low": 1.2406522209765423,
+    "ci95_high": 1.4524704366532613,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g1_risk",
+    "mean": 0.02845509407142252,
+    "ci95_low": 0.02671285392992413,
+    "ci95_high": 0.03002808918599525,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g2_risk",
+    "mean": 0.8025099858686199,
+    "ci95_low": 0.7059863159265057,
+    "ci95_high": 0.9063215079883987,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "population_risk",
+    "mean": 0.7252251473394244,
+    "ci95_low": 0.6934036971334777,
+    "ci95_high": 0.7587583939510435,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "population_regret",
+    "mean": 0.02238028879040341,
+    "ci95_low": 0.014792707702986121,
+    "ci95_high": 0.031924732903879066,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.2926485171835692,
+    "ci95_low": 0.28326720153025625,
+    "ci95_high": 0.30136780522088313,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "monitoring_gap",
+    "mean": 0.43257663015585524,
+    "ci95_low": 0.3932735717944392,
+    "ci95_high": 0.47455505035487455,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.4318010825694768,
+    "ci95_low": 0.39226588441336946,
+    "ci95_high": 0.4740667409346083,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g0_feedback_share",
+    "mean": 0.08615833333333335,
+    "ci95_low": 0.07804763020833336,
+    "ci95_high": 0.09418653645833334,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.08587969289583111,
+    "ci95_low": 0.07800164425062249,
+    "ci95_high": 0.09361327957751175,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 2.4473682472130163,
+    "ci95_low": 2.373274138020077,
+    "ci95_high": 2.5248590144739955,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "action",
+    "mean": 0.12565147381746386,
+    "ci95_low": 0.08432186972368681,
+    "ci95_high": 0.16619226882499713,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g0_risk",
+    "mean": 1.0545031907371094,
+    "ci95_low": 1.0013271589759158,
+    "ci95_high": 1.1100426734101927,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g1_risk",
+    "mean": 0.01711386153093452,
+    "ci95_low": 0.014613930584382205,
+    "ci95_high": 0.020543465814521548,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g2_risk",
+    "mean": 1.0369289205261578,
+    "ci95_low": 0.9797716634061149,
+    "ci95_high": 1.0967441938450722,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "population_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058898,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "population_regret",
+    "mean": 3.7990490462101834e-06,
+    "ci95_low": 3.3536369328384797e-06,
+    "ci95_high": 4.278546762311991e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058897998,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "monitoring_gap",
+    "mean": 3.7059244561987724e-17,
+    "ci95_low": 3.637090628672012e-17,
+    "ci95_high": 3.780309398848657e-17,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.6004027871872424e-05,
+    "ci95_low": -0.0003727715375793498,
+    "ci95_high": 0.000338683495636137,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g0_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 5.103593704575379,
+    "ci95_low": 4.596923246758701,
+    "ci95_high": 5.666847053476681,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "action",
+    "mean": -0.004820476607059901,
+    "ci95_low": -0.030294797864147228,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g0_risk",
+    "mean": 1.075194666982562,
+    "ci95_low": 1.0168121051761692,
+    "ci95_high": 1.1370274541052294,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g1_risk",
+    "mean": 0.017147471089754292,
+    "ci95_low": 0.01500984129340309,
+    "ci95_high": 0.019963014894965745,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g2_risk",
+    "mean": 1.0186171220375455,
+    "ci95_low": 0.9614104373208667,
+    "ci95_high": 1.0787581313929353,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "population_risk",
+    "mean": 0.7036530867032874,
+    "ci95_low": 0.671617816352752,
+    "ci95_high": 0.7376746870137589,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "population_regret",
+    "mean": 0.0008082281542662632,
+    "ci95_low": 0.0006231777756128733,
+    "ci95_high": 0.0010185546434064944,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.3149754292300003,
+    "ci95_low": 0.30684865262194305,
+    "ci95_high": 0.32218975493054686,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "monitoring_gap",
+    "mean": 0.388677657473287,
+    "ci95_low": 0.3498662988339427,
+    "ci95_high": 0.4306689617057386,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.38791137281868887,
+    "ci95_low": 0.3490111393794092,
+    "ci95_high": 0.4297141602522673,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g0_feedback_share",
+    "mean": 0.083209375,
+    "ci95_low": 0.07461505208333336,
+    "ci95_high": 0.09180210937500001,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.0829410656805861,
+    "ci95_low": 0.07456198384197302,
+    "ci95_high": 0.09129631025245077,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 2.432438635611375,
+    "ci95_low": 2.359587617325256,
+    "ci95_high": 2.5082648287243203,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "main",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "action",
+    "mean": 0.004653265274852082,
+    "ci95_low": -0.021435648880349698,
+    "ci95_high": 0.029293626979931587,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g0_risk",
+    "mean": 1.0542394891515765,
+    "ci95_low": 1.0013785393281003,
+    "ci95_high": 1.1101026984943196,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g1_risk",
+    "mean": 0.017255275404204094,
+    "ci95_low": 0.014816658125256723,
+    "ci95_high": 0.020561505604756298,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g2_risk",
+    "mean": 1.0376238741242845,
+    "ci95_low": 0.9796938451784932,
+    "ci95_high": 1.097852990550292,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "population_risk",
+    "mean": 0.7030395462266884,
+    "ci95_low": 0.6711740747386822,
+    "ci95_high": 0.7369189138296449,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "population_regret",
+    "mean": 0.00019468767766719545,
+    "ci95_low": 0.00017095871796465195,
+    "ci95_high": 0.00022036895341535995,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.7030395462266883,
+    "ci95_low": 0.6711740747386822,
+    "ci95_high": 0.736918913829645,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "monitoring_gap",
+    "mean": 3.7203573555188997e-17,
+    "ci95_low": 3.566036355096003e-17,
+    "ci95_high": 3.8846703631634226e-17,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "sample_monitoring_gap",
+    "mean": -0.0009122170060587983,
+    "ci95_low": -0.0022193561088983136,
+    "ci95_high": 0.0005279522822981927,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g0_feedback_share",
+    "mean": 0.333746875,
+    "ci95_low": 0.33283643229166665,
+    "ci95_high": 0.33466359375,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.1553144765290246,
+    "ci95_low": 1.1553144765290246,
+    "ci95_high": 1.1553144765290246,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "action",
+    "mean": -0.005040925998122834,
+    "ci95_low": -0.03034997705037266,
+    "ci95_high": 0.01855824157311794,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g0_risk",
+    "mean": 1.0542394891515765,
+    "ci95_low": 1.0013785393281003,
+    "ci95_high": 1.1101026984943196,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g1_risk",
+    "mean": 0.017255275404204094,
+    "ci95_low": 0.014816658125256723,
+    "ci95_high": 0.020561505604756298,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g2_risk",
+    "mean": 1.0376238741242845,
+    "ci95_low": 0.9796938451784932,
+    "ci95_high": 1.097852990550292,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "population_risk",
+    "mean": 0.7030395462266884,
+    "ci95_low": 0.6711740747386822,
+    "ci95_high": 0.7369189138296449,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "population_regret",
+    "mean": 0.00019468767766719545,
+    "ci95_low": 0.00017095871796465195,
+    "ci95_high": 0.00022036895341535995,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.7030395462266883,
+    "ci95_low": 0.6711740747386822,
+    "ci95_high": 0.736918913829645,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "monitoring_gap",
+    "mean": 3.7203573555188997e-17,
+    "ci95_low": 3.566036355096003e-17,
+    "ci95_high": 3.8846703631634226e-17,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "sample_monitoring_gap",
+    "mean": -0.0009122170060587983,
+    "ci95_low": -0.0022193561088983136,
+    "ci95_high": 0.0005279522822981927,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g0_feedback_share",
+    "mean": 0.333746875,
+    "ci95_low": 0.33283643229166665,
+    "ci95_high": 0.33466359375,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.1553144765290246,
+    "ci95_low": 1.1553144765290246,
+    "ci95_high": 1.1553144765290246,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "action",
+    "mean": -0.005040925998122834,
+    "ci95_low": -0.03034997705037266,
+    "ci95_high": 0.01855824157311794,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g0_risk",
+    "mean": 1.0545031907371094,
+    "ci95_low": 1.0013271589759158,
+    "ci95_high": 1.1100426734101927,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g1_risk",
+    "mean": 0.01711386153093452,
+    "ci95_low": 0.014613930584382205,
+    "ci95_high": 0.020543465814521548,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g2_risk",
+    "mean": 1.0369289205261578,
+    "ci95_low": 0.9797716634061149,
+    "ci95_high": 1.0967441938450722,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "population_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058898,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "population_regret",
+    "mean": 3.7990490462101834e-06,
+    "ci95_low": 3.3536369328384797e-06,
+    "ci95_high": 4.278546762311991e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058897998,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "monitoring_gap",
+    "mean": 3.7059244561987724e-17,
+    "ci95_low": 3.637090628672012e-17,
+    "ci95_high": 3.780309398848657e-17,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.6004027871872424e-05,
+    "ci95_low": -0.0003727715375793498,
+    "ci95_high": 0.000338683495636137,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g0_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.1553144765290246,
+    "ci95_low": 1.1553144765290246,
+    "ci95_high": 1.1553144765290246,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "action",
+    "mean": -0.004820476607059901,
+    "ci95_low": -0.030294797864147228,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g0_risk",
+    "mean": 1.0542394891515765,
+    "ci95_low": 1.0013785393281003,
+    "ci95_high": 1.1101026984943196,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g1_risk",
+    "mean": 0.017255275404204094,
+    "ci95_low": 0.014816658125256723,
+    "ci95_high": 0.020561505604756298,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g2_risk",
+    "mean": 1.0376238741242845,
+    "ci95_low": 0.9796938451784932,
+    "ci95_high": 1.097852990550292,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "population_risk",
+    "mean": 0.7030395462266884,
+    "ci95_low": 0.6711740747386822,
+    "ci95_high": 0.7369189138296449,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "population_regret",
+    "mean": 0.00019468767766719545,
+    "ci95_low": 0.00017095871796465195,
+    "ci95_high": 0.00022036895341535995,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.7030395462266883,
+    "ci95_low": 0.6711740747386822,
+    "ci95_high": 0.736918913829645,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "monitoring_gap",
+    "mean": 3.7203573555188997e-17,
+    "ci95_low": 3.566036355096003e-17,
+    "ci95_high": 3.8846703631634226e-17,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "sample_monitoring_gap",
+    "mean": -0.0009122170060587983,
+    "ci95_low": -0.0022193561088983136,
+    "ci95_high": 0.0005279522822981927,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g0_feedback_share",
+    "mean": 0.333746875,
+    "ci95_low": 0.33283643229166665,
+    "ci95_high": 0.33466359375,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.1553144765290246,
+    "ci95_low": 1.1553144765290246,
+    "ci95_high": 1.1553144765290246,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "action",
+    "mean": -0.005040925998122834,
+    "ci95_low": -0.03034997705037266,
+    "ci95_high": 0.01855824157311794,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g0_risk",
+    "mean": 1.0914872034362477,
+    "ci95_low": 0.9599362030525382,
+    "ci95_high": 1.2283928653324716,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g1_risk",
+    "mean": 0.01724862545603329,
+    "ci95_low": 0.01471285948391822,
+    "ci95_high": 0.021042862888043003,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g2_risk",
+    "mean": 1.0390382959897955,
+    "ci95_low": 0.9070561744664262,
+    "ci95_high": 1.1923819200676948,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "population_risk",
+    "mean": 0.7159247082940257,
+    "ci95_low": 0.6794586798817948,
+    "ci95_high": 0.7549634356430284,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "population_regret",
+    "mean": 0.013079849745004434,
+    "ci95_low": 0.004468625194450176,
+    "ci95_high": 0.024212577377537278,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.5900847136634251,
+    "ci95_low": 0.5683118340484019,
+    "ci95_high": 0.6126756718961848,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "monitoring_gap",
+    "mean": 0.1258399946306004,
+    "ci95_low": 0.09608412632068916,
+    "ci95_high": 0.16155837159343514,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.12511810949518237,
+    "ci95_low": 0.09524360147166575,
+    "ci95_high": 0.1609610399122212,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g0_feedback_share",
+    "mean": 0.28451041666666665,
+    "ci95_low": 0.26284552083333335,
+    "ci95_high": 0.3068054166666666,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.28439853326937187,
+    "ci95_low": 0.263014050985774,
+    "ci95_high": 0.30646061020760496,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.4684223496477629,
+    "ci95_low": 1.4403378222550107,
+    "ci95_high": 1.4989409233589173,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "action",
+    "mean": 0.0040008882784233184,
+    "ci95_low": -0.05156897877633503,
+    "ci95_high": 0.05522825660705667,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g0_risk",
+    "mean": 1.0642349722446403,
+    "ci95_low": 0.9954187036933797,
+    "ci95_high": 1.1364194052774268,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g1_risk",
+    "mean": 0.01447735981098101,
+    "ci95_low": 0.013846732200749653,
+    "ci95_high": 0.015365840541973643,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g2_risk",
+    "mean": 1.0331373488271034,
+    "ci95_low": 0.958237845339452,
+    "ci95_high": 1.112106073309591,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "population_risk",
+    "mean": 0.7039498936275748,
+    "ci95_low": 0.6720096440796138,
+    "ci95_high": 0.7379048522789178,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "population_regret",
+    "mean": 0.0011050350785537027,
+    "ci95_low": 0.0004707749747581574,
+    "ci95_high": 0.001934850889484137,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.6113981976282641,
+    "ci95_low": 0.5910522624410344,
+    "ci95_high": 0.6326473465303794,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "monitoring_gap",
+    "mean": 0.09255169599931076,
+    "ci95_low": 0.08065785757530519,
+    "ci95_high": 0.10551420520282542,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.0920304617007803,
+    "ci95_low": 0.07995244044500148,
+    "ci95_high": 0.10486074756901514,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g0_feedback_share",
+    "mean": 0.28951979166666664,
+    "ci95_low": 0.28356132812499996,
+    "ci95_high": 0.2953542708333334,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.28939738415614535,
+    "ci95_low": 0.2837949621328682,
+    "ci95_high": 0.2948004879829289,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.4548114815391355,
+    "ci95_low": 1.4313264456153239,
+    "ci95_high": 1.4803432633334763,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "action",
+    "mean": -0.0013044647832540454,
+    "ci95_low": -0.030102434135910832,
+    "ci95_high": 0.02629918252609226,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g0_risk",
+    "mean": 1.0545031907371094,
+    "ci95_low": 1.0013271589759158,
+    "ci95_high": 1.1100426734101927,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g1_risk",
+    "mean": 0.01711386153093452,
+    "ci95_low": 0.014613930584382205,
+    "ci95_high": 0.020543465814521548,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g2_risk",
+    "mean": 1.0369289205261578,
+    "ci95_low": 0.9797716634061149,
+    "ci95_high": 1.0967441938450722,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "population_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058898,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "population_regret",
+    "mean": 3.7990490462101834e-06,
+    "ci95_low": 3.3536369328384797e-06,
+    "ci95_high": 4.278546762311991e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058897998,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "monitoring_gap",
+    "mean": 3.7059244561987724e-17,
+    "ci95_low": 3.637090628672012e-17,
+    "ci95_high": 3.780309398848657e-17,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.6004027871872424e-05,
+    "ci95_low": -0.0003727715375793498,
+    "ci95_high": 0.000338683495636137,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g0_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.501786779605553,
+    "ci95_low": 1.4702320266003726,
+    "ci95_high": 1.536316614929044,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "action",
+    "mean": -0.004820476607059901,
+    "ci95_low": -0.030294797864147228,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g0_risk",
+    "mean": 1.054748550456406,
+    "ci95_low": 1.0016620615666403,
+    "ci95_high": 1.1105301977991278,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g1_risk",
+    "mean": 0.01713661326582856,
+    "ci95_low": 0.014811071294413449,
+    "ci95_high": 0.02027411092304674,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g2_risk",
+    "mean": 1.0373357120730315,
+    "ci95_low": 0.9784262809398842,
+    "ci95_high": 1.0987380652718504,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "population_risk",
+    "mean": 0.7030736252650887,
+    "ci95_low": 0.6712089699475741,
+    "ci95_high": 0.736951143190403,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "population_regret",
+    "mean": 0.00022876671606755485,
+    "ci95_low": 0.00020109295253643354,
+    "ci95_high": 0.00025928590200296017,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.6117731680634277,
+    "ci95_low": 0.5912715298085071,
+    "ci95_high": 0.6329989399156442,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "monitoring_gap",
+    "mean": 0.09130045720166083,
+    "ci95_low": 0.07971578753890875,
+    "ci95_high": 0.10399713113441686,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.0908906047693154,
+    "ci95_low": 0.07918427141538986,
+    "ci95_high": 0.10364256271796875,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g0_feedback_share",
+    "mean": 0.2893875,
+    "ci95_low": 0.2832353124999999,
+    "ci95_high": 0.2954084635416667,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.28938694480354793,
+    "ci95_low": 0.28363191537405796,
+    "ci95_high": 0.2949367141935479,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.4550693775241195,
+    "ci95_low": 1.431569120231656,
+    "ci95_high": 1.4806211874861637,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "action",
+    "mean": -0.004809044958904438,
+    "ci95_low": -0.030057086259531723,
+    "ci95_high": 0.018671831337156816,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g0_risk",
+    "mean": 1.5668245939675391,
+    "ci95_low": 1.1450783735967494,
+    "ci95_high": 1.9658477409365893,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g1_risk",
+    "mean": 0.192583381346518,
+    "ci95_low": 0.17593252709301013,
+    "ci95_high": 0.20759798711440322,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g2_risk",
+    "mean": 1.0038698398660593,
+    "ci95_low": 0.6225989266545763,
+    "ci95_high": 1.421750611142398,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "population_risk",
+    "mean": 0.9210926050600386,
+    "ci95_low": 0.8716358179053578,
+    "ci95_high": 0.9704294178113084,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "population_regret",
+    "mean": 0.21824774651101767,
+    "ci95_low": 0.19796120966641018,
+    "ci95_high": 0.23670964312020562,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.2818238069098923,
+    "ci95_low": 0.263787784801293,
+    "ci95_high": 0.2990542409473828,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "monitoring_gap",
+    "mean": 0.6392687981501465,
+    "ci95_low": 0.5892214803206113,
+    "ci95_high": 0.6874158218503988,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.638943704481582,
+    "ci95_low": 0.5888388065011069,
+    "ci95_high": 0.6872306348345721,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g0_feedback_share",
+    "mean": 0.18281458333333328,
+    "ci95_low": 0.098485390625,
+    "ci95_high": 0.27460007812500004,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.18262399272757623,
+    "ci95_low": 0.09824962551446231,
+    "ci95_high": 0.2744765641063738,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.9184500383328458,
+    "ci95_low": 1.89459004448213,
+    "ci95_high": 1.9445990649703855,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "action",
+    "mean": 0.1271060180220659,
+    "ci95_low": -0.0645194178821934,
+    "ci95_high": 0.30538292335267164,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g0_risk",
+    "mean": 1.0843669019766977,
+    "ci95_low": 0.984310338209005,
+    "ci95_high": 1.190576460888889,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g1_risk",
+    "mean": 0.01365395659363854,
+    "ci95_low": 0.013510571409574292,
+    "ci95_high": 0.013840662877739118,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g2_risk",
+    "mean": 1.0280181394021433,
+    "ci95_low": 0.9213519775813725,
+    "ci95_high": 1.1418334930557594,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "population_risk",
+    "mean": 0.7086796659908267,
+    "ci95_low": 0.6756773025129652,
+    "ci95_high": 0.7436775592900676,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "population_regret",
+    "mean": 0.005834807441805331,
+    "ci95_low": 0.002048423936511958,
+    "ci95_high": 0.010915119543618273,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.38532172518085317,
+    "ci95_low": 0.37638094862000593,
+    "ci95_high": 0.39348454918325354,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "monitoring_gap",
+    "mean": 0.32335794080997327,
+    "ci95_low": 0.28301122390291406,
+    "ci95_high": 0.36718706605255585,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.3227088352547431,
+    "ci95_low": 0.28222431015499105,
+    "ci95_high": 0.3665552403576014,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g0_feedback_share",
+    "mean": 0.1827177083333333,
+    "ci95_low": 0.16782986979166667,
+    "ci95_high": 0.19716580729166666,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.18259245090697523,
+    "ci95_low": 0.16773455763325593,
+    "ci95_high": 0.1968427839905122,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 2.1893698548864777,
+    "ci95_low": 2.110550747267443,
+    "ci95_high": 2.2738330024079327,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "action",
+    "mean": 0.005214359825150415,
+    "ci95_low": -0.036696230069377056,
+    "ci95_high": 0.046301569584213685,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g0_risk",
+    "mean": 1.0545031907371094,
+    "ci95_low": 1.0013271589759158,
+    "ci95_high": 1.1100426734101927,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g1_risk",
+    "mean": 0.01711386153093452,
+    "ci95_low": 0.014613930584382205,
+    "ci95_high": 0.020543465814521548,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g2_risk",
+    "mean": 1.0369289205261578,
+    "ci95_low": 0.9797716634061149,
+    "ci95_high": 1.0967441938450722,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "population_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058898,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "population_regret",
+    "mean": 3.7990490462101834e-06,
+    "ci95_low": 3.3536369328384797e-06,
+    "ci95_high": 4.278546762311991e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.7028486575980673,
+    "ci95_low": 0.6709961927041259,
+    "ci95_high": 0.7367035058897998,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "monitoring_gap",
+    "mean": 3.7059244561987724e-17,
+    "ci95_low": 3.637090628672012e-17,
+    "ci95_high": 3.780309398848657e-17,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.6004027871872424e-05,
+    "ci95_low": -0.0003727715375793498,
+    "ci95_high": 0.000338683495636137,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g0_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 3.1498472259525148,
+    "ci95_low": 2.8611941361618025,
+    "ci95_high": 3.475113765305232,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "action",
+    "mean": -0.004820476607059901,
+    "ci95_low": -0.030294797864147228,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g0_risk",
+    "mean": 1.0548160250172314,
+    "ci95_low": 1.0008821019639127,
+    "ci95_high": 1.111303544502481,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g1_risk",
+    "mean": 0.017181130026683034,
+    "ci95_low": 0.01492166188856354,
+    "ci95_high": 0.020259864790486592,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g2_risk",
+    "mean": 1.037718272516315,
+    "ci95_low": 0.9784038100965704,
+    "ci95_high": 1.099619951174976,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "population_risk",
+    "mean": 0.7032384758534098,
+    "ci95_low": 0.6713067156429403,
+    "ci95_high": 0.737153817548305,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "population_regret",
+    "mean": 0.00039361730438871944,
+    "ci95_low": 0.00032939588705985413,
+    "ci95_high": 0.0004599514882687887,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.39013170883597514,
+    "ci95_low": 0.38182481345248515,
+    "ci95_high": 0.3972180695541883,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "monitoring_gap",
+    "mean": 0.3131067670174348,
+    "ci95_low": 0.2747524417698599,
+    "ci95_high": 0.3549056585650823,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "sample_monitoring_gap",
+    "mean": 0.3125343523591257,
+    "ci95_low": 0.2741353035781533,
+    "ci95_high": 0.35433263220910965,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g0_feedback_share",
+    "mean": 0.18301145833333332,
+    "ci95_low": 0.1676494010416667,
+    "ci95_high": 0.1980469270833333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.1829469038907518,
+    "ci95_low": 0.1677131224256327,
+    "ci95_high": 0.1977569690191742,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 2.1873228907454734,
+    "ci95_low": 2.10878447700873,
+    "ci95_high": 2.271370785425943,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "symmetric",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "action",
+    "mean": -0.004901696641263801,
+    "ci95_low": -0.030408246187883393,
+    "ci95_high": 0.018957020943832694,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g0_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g1_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g2_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "population_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266177,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "population_regret",
+    "mean": 3.7990490462101842e-06,
+    "ci95_low": 3.353636932838484e-06,
+    "ci95_high": 4.278546762311998e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "monitoring_gap",
+    "mean": 7.705641680288979e-19,
+    "ci95_low": 7.490535969267854e-19,
+    "ci95_high": 7.910339050454243e-19,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.2096684075576808e-05,
+    "ci95_low": -3.405768250701194e-05,
+    "ci95_high": 1.1153167140577777e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g0_feedback_share",
+    "mean": 0.2828104166666666,
+    "ci95_low": 0.2819114583333333,
+    "ci95_high": 0.2837177083333332,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.2827320638650378,
+    "ci95_low": 0.2827320638650378,
+    "ci95_high": 0.2827320638650378,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2430050452502273,
+    "ci95_low": 1.2430050452502273,
+    "ci95_high": 1.2430050452502273,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "endogenous",
+    "metric": "action",
+    "mean": -0.004820476607059904,
+    "ci95_low": -0.03029479786414723,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g0_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g1_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g2_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "population_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266177,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "population_regret",
+    "mean": 3.7990490462101842e-06,
+    "ci95_low": 3.353636932838484e-06,
+    "ci95_high": 4.278546762311998e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "monitoring_gap",
+    "mean": 7.705641680288979e-19,
+    "ci95_low": 7.490535969267854e-19,
+    "ci95_high": 7.910339050454243e-19,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.2096684075576808e-05,
+    "ci95_low": -3.405768250701194e-05,
+    "ci95_high": 1.1153167140577777e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g0_feedback_share",
+    "mean": 0.2828104166666666,
+    "ci95_low": 0.2819114583333333,
+    "ci95_high": 0.2837177083333332,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.2827320638650378,
+    "ci95_low": 0.2827320638650378,
+    "ci95_high": 0.2827320638650378,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2430050452502273,
+    "ci95_low": 1.2430050452502273,
+    "ci95_high": 1.2430050452502273,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "static",
+    "metric": "action",
+    "mean": -0.004820476607059904,
+    "ci95_low": -0.03029479786414723,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g0_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g1_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g2_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "population_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266177,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "population_regret",
+    "mean": 3.7990490462101842e-06,
+    "ci95_low": 3.353636932838484e-06,
+    "ci95_high": 4.278546762311998e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "monitoring_gap",
+    "mean": 8.899131431761023e-19,
+    "ci95_low": 8.664943762504153e-19,
+    "ci95_high": 9.136788547969844e-19,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.2096684075576808e-05,
+    "ci95_low": -3.405768250701194e-05,
+    "ci95_high": 1.1153167140577777e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g0_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2586992471636234,
+    "ci95_low": 1.2586992471636234,
+    "ci95_high": 1.2586992471636234,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "quota",
+    "metric": "action",
+    "mean": -0.004820476607059904,
+    "ci95_low": -0.03029479786414723,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g0_risk",
+    "mean": 0.013337159582508981,
+    "ci95_low": 0.013336728581592674,
+    "ci95_high": 0.01333761861970849,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g1_risk",
+    "mean": 0.013337159582508981,
+    "ci95_low": 0.013336728581592674,
+    "ci95_high": 0.01333761861970849,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g2_risk",
+    "mean": 0.013337159582508981,
+    "ci95_low": 0.013336728581592674,
+    "ci95_high": 0.01333761861970849,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "population_risk",
+    "mean": 0.013337159582508981,
+    "ci95_low": 0.013336728581592674,
+    "ci95_high": 0.01333761861970849,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "population_regret",
+    "mean": 3.826249175644282e-06,
+    "ci95_low": 3.395248259338612e-06,
+    "ci95_high": 4.285286375155011e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.013337159582508981,
+    "ci95_low": 0.013336728581592674,
+    "ci95_high": 0.01333761861970849,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "monitoring_gap",
+    "mean": 7.327471962526035e-19,
+    "ci95_low": 7.062059270701583e-19,
+    "ci95_high": 7.58594576044658e-19,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.216496093862135e-05,
+    "ci95_low": -3.411192967820007e-05,
+    "ci95_high": 1.1111892000112585e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g0_feedback_share",
+    "mean": 0.2828104166666666,
+    "ci95_low": 0.2819114583333333,
+    "ci95_high": 0.2837177083333332,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.2827320638650378,
+    "ci95_low": 0.2827320638650378,
+    "ci95_high": 0.2827320638650378,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2430050452502273,
+    "ci95_low": 1.2430050452502273,
+    "ci95_high": 1.2430050452502273,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 0.0,
+    "condition": "ipw",
+    "metric": "action",
+    "mean": -0.004831602801935961,
+    "ci95_low": -0.03030046549215574,
+    "ci95_high": 0.019056223773308255,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g0_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g1_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g2_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "population_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266177,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "population_regret",
+    "mean": 3.7990490462101842e-06,
+    "ci95_low": 3.353636932838484e-06,
+    "ci95_high": 4.278546762311998e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "monitoring_gap",
+    "mean": 3.9725167599868877e-20,
+    "ci95_low": 1.0230531699573217e-20,
+    "ci95_high": 6.921546669147459e-20,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.2096684075576808e-05,
+    "ci95_low": -3.405768250701194e-05,
+    "ci95_high": 1.1153167140577777e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g0_feedback_share",
+    "mean": 0.28201562499999994,
+    "ci95_low": 0.28109997395833336,
+    "ci95_high": 0.2829260677083333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.28198002047280984,
+    "ci95_low": 0.28197999330742646,
+    "ci95_high": 0.2819800457070708,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2472361272263932,
+    "ci95_low": 1.247235984637112,
+    "ci95_high": 1.2472362807279564,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "endogenous",
+    "metric": "action",
+    "mean": -0.004820476607059904,
+    "ci95_low": -0.03029479786414723,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g0_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g1_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g2_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "population_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266177,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "population_regret",
+    "mean": 3.7990490462101842e-06,
+    "ci95_low": 3.353636932838484e-06,
+    "ci95_high": 4.278546762311998e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "monitoring_gap",
+    "mean": 1.491862189340054e-20,
+    "ci95_low": -1.2490009027033005e-20,
+    "ci95_high": 4.4582393332603943e-20,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.2096684075576808e-05,
+    "ci95_low": -3.405768250701194e-05,
+    "ci95_high": 1.1153167140577777e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g0_feedback_share",
+    "mean": 0.28201562499999994,
+    "ci95_low": 0.28109997395833336,
+    "ci95_high": 0.2829260677083333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.28198023570173614,
+    "ci95_low": 0.28198023570173614,
+    "ci95_high": 0.28198023570173614,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2472349110563943,
+    "ci95_low": 1.2472349110563943,
+    "ci95_high": 1.2472349110563943,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "static",
+    "metric": "action",
+    "mean": -0.004820476607059904,
+    "ci95_low": -0.03029479786414723,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g0_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g1_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g2_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "population_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266177,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "population_regret",
+    "mean": 3.7990490462101842e-06,
+    "ci95_low": 3.353636932838484e-06,
+    "ci95_high": 4.278546762311998e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "monitoring_gap",
+    "mean": 8.899131431761023e-19,
+    "ci95_low": 8.664943762504153e-19,
+    "ci95_high": 9.136788547969844e-19,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.2096684075576808e-05,
+    "ci95_low": -3.405768250701194e-05,
+    "ci95_high": 1.1153167140577777e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g0_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.263481539851098,
+    "ci95_low": 1.263481378555834,
+    "ci95_high": 1.2634817134902527,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "quota",
+    "metric": "action",
+    "mean": -0.004820476607059904,
+    "ci95_low": -0.03029479786414723,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g0_risk",
+    "mean": 0.013337161083145612,
+    "ci95_low": 0.013336730200866544,
+    "ci95_high": 0.01333762042251331,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g1_risk",
+    "mean": 0.013337161083145612,
+    "ci95_low": 0.013336730200866544,
+    "ci95_high": 0.01333762042251331,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g2_risk",
+    "mean": 0.013337161083145612,
+    "ci95_low": 0.013336730200866544,
+    "ci95_high": 0.01333762042251331,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "population_risk",
+    "mean": 0.013337161083145612,
+    "ci95_low": 0.013336730200866544,
+    "ci95_high": 0.01333762042251331,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "population_regret",
+    "mean": 3.827749812275517e-06,
+    "ci95_low": 3.396867533207552e-06,
+    "ci95_high": 4.287089179973078e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.013337161083145612,
+    "ci95_low": 0.013336730200866544,
+    "ci95_high": 0.013337620422513309,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "monitoring_gap",
+    "mean": 1.3877787807814442e-21,
+    "ci95_low": -2.5153490401663695e-20,
+    "ci95_high": 2.914335439641036e-20,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.2165577538966703e-05,
+    "ci95_low": -3.410989692722461e-05,
+    "ci95_high": 1.1107238283641955e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g0_feedback_share",
+    "mean": 0.28201562499999994,
+    "ci95_low": 0.28109997395833336,
+    "ci95_high": 0.2829260677083333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.2819800188468103,
+    "ci95_low": 0.28197999282350983,
+    "ci95_high": 0.28198004325783405,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2472361364142703,
+    "ci95_low": 1.2472359984771504,
+    "ci95_high": 1.247236283462159,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 1.5,
+    "condition": "ipw",
+    "metric": "action",
+    "mean": -0.0048314003232981465,
+    "ci95_low": -0.03030032216853143,
+    "ci95_high": 0.01905509409501187,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g0_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g1_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g2_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "population_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266177,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "population_regret",
+    "mean": 3.7990490462101842e-06,
+    "ci95_low": 3.353636932838484e-06,
+    "ci95_high": 4.278546762311998e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "monitoring_gap",
+    "mean": 5.8980598183211445e-21,
+    "ci95_low": -2.6372133643537405e-20,
+    "ci95_high": 3.834172562777733e-20,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.2096684075576808e-05,
+    "ci95_low": -3.405768250701194e-05,
+    "ci95_high": 1.1153167140577777e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g0_feedback_share",
+    "mean": 0.2812385416666667,
+    "ci95_low": 0.2803280989583333,
+    "ci95_high": 0.2821427083333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.28122089770082126,
+    "ci95_low": 0.281220842862449,
+    "ci95_high": 0.28122094864078223,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2515445575345918,
+    "ci95_low": 1.2515442671399741,
+    "ci95_high": 1.2515448701539647,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "endogenous",
+    "metric": "action",
+    "mean": -0.004820476607059904,
+    "ci95_low": -0.03029479786414723,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g0_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g1_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g2_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "population_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266177,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "population_regret",
+    "mean": 3.7990490462101842e-06,
+    "ci95_low": 3.353636932838484e-06,
+    "ci95_high": 4.278546762311998e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.01333713238237955,
+    "ci95_low": 0.013336686970266177,
+    "ci95_high": 0.013337611880095654,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "monitoring_gap",
+    "mean": -2.1887006096399387e-18,
+    "ci95_low": -2.2115989595228328e-18,
+    "ci95_high": -2.1656287874094474e-18,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.2096684075576808e-05,
+    "ci95_low": -3.405768250701194e-05,
+    "ci95_high": 1.1153167140577777e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g0_feedback_share",
+    "mean": 0.2812385416666667,
+    "ci95_low": 0.2803280989583333,
+    "ci95_high": 0.2821427083333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.28122133217695205,
+    "ci95_low": 0.28122133217695205,
+    "ci95_high": 0.28122133217695205,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.251542080737067,
+    "ci95_low": 1.251542080737067,
+    "ci95_high": 1.251542080737067,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "static",
+    "metric": "action",
+    "mean": -0.004820476607059904,
+    "ci95_low": -0.03029479786414723,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g0_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g1_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g2_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "population_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266177,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "population_regret",
+    "mean": 3.7990490462101842e-06,
+    "ci95_low": 3.353636932838484e-06,
+    "ci95_high": 4.278546762311998e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.013337132382379546,
+    "ci95_low": 0.013336686970266173,
+    "ci95_high": 0.01333761188009565,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "monitoring_gap",
+    "mean": 8.899131431761023e-19,
+    "ci95_low": 8.664943762504153e-19,
+    "ci95_high": 9.136788547969844e-19,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.2096684075576808e-05,
+    "ci95_low": -3.405768250701194e-05,
+    "ci95_high": 1.1153167140577777e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g0_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.333333333333333,
+    "ci95_low": 0.333333333333333,
+    "ci95_high": 0.333333333333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2683591376684922,
+    "ci95_low": 1.2683588086442423,
+    "ci95_high": 1.2683594918741414,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "quota",
+    "metric": "action",
+    "mean": -0.004820476607059904,
+    "ci95_low": -0.03029479786414723,
+    "ci95_high": 0.019078689009818902,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g0_risk",
+    "mean": 0.013337166448641991,
+    "ci95_low": 0.013336735080031479,
+    "ci95_high": 0.013337626198803578,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g1_risk",
+    "mean": 0.013337166448641991,
+    "ci95_low": 0.013336735080031479,
+    "ci95_high": 0.013337626198803578,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g2_risk",
+    "mean": 0.013337166448641991,
+    "ci95_low": 0.013336735080031479,
+    "ci95_high": 0.013337626198803578,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "population_risk",
+    "mean": 0.013337166448641987,
+    "ci95_low": 0.013336735080031479,
+    "ci95_high": 0.013337626198803578,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "population_regret",
+    "mean": 3.833115308652526e-06,
+    "ci95_low": 3.401746698142434e-06,
+    "ci95_high": 4.292865470244653e-06,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "feedback_weighted_risk",
+    "mean": 0.013337166448641991,
+    "ci95_low": 0.013336735080031479,
+    "ci95_high": 0.013337626198803578,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "monitoring_gap",
+    "mean": 1.2143064331837653e-20,
+    "ci95_low": -1.8045460958848736e-20,
+    "ci95_high": 4.250506197012166e-20,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "sample_monitoring_gap",
+    "mean": -1.2160800057277197e-05,
+    "ci95_low": -3.4108286373597835e-05,
+    "ci95_high": 1.1107469202599004e-05,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g0_feedback_share",
+    "mean": 0.2812385416666667,
+    "ci95_low": 0.2803280989583333,
+    "ci95_high": 0.2821427083333333,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "g0_expected_feedback_share",
+    "mean": 0.28122089380482546,
+    "ci95_low": 0.28122084122481633,
+    "ci95_high": 0.2812209431387865,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "expected_invitations_per_accepted",
+    "mean": 1.2515445797444573,
+    "ci95_low": 1.251544298504523,
+    "ci95_high": 1.25154487948999,
+    "n_worlds": 20
+  },
+  {
+    "scenario": "no_conflict",
+    "beta": 3.0,
+    "condition": "ipw",
+    "metric": "action",
+    "mean": -0.0048317321849346995,
+    "ci95_low": -0.030302055556877712,
+    "ci95_high": 0.01905447788511759,
+    "n_worlds": 20
+  }
+]

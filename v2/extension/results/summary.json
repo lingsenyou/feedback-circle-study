@@ -1,0 +1,62 @@
+{
+  "status": "post-hoc exploratory extension after inspection of original results",
+  "complete_utc": "2026-09-28T05:02:00.638484+00:00",
+  "elapsed_seconds": 17.025954999990063,
+  "frozen_sha256": {
+    "protocol": "ff906d6a7982ee7549a95b10e3147df1973780976df11a7d786ecd3620546afa",
+    "config": "f8cde5eb5c4b895b22f588e9c7f4c643596622cbb235e80926369770fe4dfe98",
+    "code": "0d83e5ef2151aae98c0e8e5f729fd4927e4f7f19ec6742a40515612a50a63c1f"
+  },
+  "actual_new_runs": 4500,
+  "condition_cells": 54,
+  "original_primary_recomputed": {
+    "mean_ci95": [
+      0.7337720789610263,
+      0.5158086270726144,
+      0.8971166793550999
+    ],
+    "positive_worlds": 18,
+    "negative_world_ids": [
+      10,
+      11
+    ]
+  },
+  "checks": {
+    "probability_max_sum_error": 3.3306690738754696e-16,
+    "true_ipw_moment_max_error": 2.3245294578089215e-16,
+    "risk_decomposition_max_error": 5.581472783955377e-16,
+    "deterministic_mirror_max_error": 0.0,
+    "fixedpoint_derivative_max_error": 1.0455680765630859e-10,
+    "actual_runs": 4500,
+    "planned_runs_match": true,
+    "max_cost_standardized_difference": 3.16023859696213,
+    "original_input_hashes_unchanged": true,
+    "law_zero_loss_probability_match_error": 0.0,
+    "law_zero_loss_slope_match_error": 0.0
+  },
+  "limitations": [
+    "Exploratory extension after seeing the original results.",
+    "No human or learned-knowledge validation.",
+    "Matched law slope is at L=0 only; strength parameters are not globally equivalent.",
+    "Propensity errors are specified misspecification, not data-fitted estimates.",
+    "Equal accepted samples are not equal invitations.",
+    "Roots from sign-changing grids do not prove completeness at tangencies.",
+    "Conditional mean-map local stability is not global stochastic convergence."
+  ],
+  "output_hashes": {
+    "checks.json": "a5318db5f4d41fcd457e304343e104afe61be57c20aaa1445c1601449452c691",
+    "condition_estimates.csv": "bdd325281564fd59f7df1b4d3176fa767aefe800ba3f5097f91cd753fd429c58",
+    "contrasts.csv": "7176e7f7f3163bd58e339db2f92f57b956f3bdc0a0654a32eaa3273ac29b5b30",
+    "deterministic_trajectories.csv": "b01eb08a61e30641aa8adfd6b17bb9eed138d0b2f8b8b7f962b50f08d7ea878d",
+    "execution_start.json": "1ea211d14feaa30248767f2d3067195a23752b9f0ee5b96ddbbccfe305d6f97c",
+    "fixed_points.csv": "d05638f599818488714ce7248002992c1e4f4792adb548f999f1c89cc6f1dc4f",
+    "invitation_cost_checks.csv": "674c5b3983eaca6c54faba27ecc7e8014ce23587eebbb52cb9fbff30fbcff998",
+    "original_primary_run_contrasts.csv": "de0fb435d09ceb163a1f2cc067c8fe4b3c54ab47d226c05146b14950cf15a4ff",
+    "original_primary_trajectories.csv": "b8053aec996b79300275b02e41d7ab3bb09d8d5693bbb8ca239ffec9f070380f",
+    "original_world_geometry.csv": "2b752b95734a2d0cc42fbce1df1957b912f7742ffa18c9582060d4a4251b0883",
+    "run_metrics.csv": "1241e6ae15bad7ed4c21470ccd3ce3a5dc2937b42d220eafd03c6f1f87c8aa08",
+    "symmetric_seed_summaries.csv": "0f85c6340f3171b6adf930326d074db10bf6701ad2a672c88969cda0277b9c37",
+    "trajectories_world.csv": "b67b655db87b48b6ed77021f612ca7f87acb22682fe3ab689dd3712011e37415",
+    "world_metrics.csv": "984c0a40749f5a2aa11fd1dc7244b278d846a6602348134cbaf1c3c947dabc8c"
+  }
+}

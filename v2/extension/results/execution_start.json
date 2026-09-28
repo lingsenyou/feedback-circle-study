@@ -1,0 +1,97 @@
+{
+  "utc": "2026-09-28T05:01:43.612352+00:00",
+  "status": "post-hoc exploratory extension after inspection of original results",
+  "frozen_sha256": {
+    "protocol": "ff906d6a7982ee7549a95b10e3147df1973780976df11a7d786ecd3620546afa",
+    "config": "f8cde5eb5c4b895b22f588e9c7f4c643596622cbb235e80926369770fe4dfe98",
+    "code": "0d83e5ef2151aae98c0e8e5f729fd4927e4f7f19ec6742a40515612a50a63c1f"
+  },
+  "original_input_sha256": {
+    "run_metrics.csv": "316fe8490199b7530ef814229a4204969c3e29f0cba3a11de3680cb70bafb22d",
+    "world_metrics.csv": "7f8de44809b80fee5c89a15ea8387d6e5631b889caba7c31c22d5e3b945c5e44",
+    "trajectories_world.csv": "0fbb937014d9920c4dab6f4cba1b766ba7a5b1ed8a86ea1556ab89d16c8858d3",
+    "world_parameters.npz": "c4fc3ca4486d79604b14a465b37cded0dd87adfd630df675cf182c516a62b472",
+    "summary.json": "c9fa2c39dfede8284ed20e357ad6b1b44621b3be7a608c3b800c1fcb0811e7d8"
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "config": {
+    "extension_version": "2.0.0-exploratory",
+    "status": "post-hoc exploratory extension after inspection of original results",
+    "original_results_relative": "../../study/results",
+    "learning_rate": 0.05,
+    "batch_size": 96,
+    "rounds": 1000,
+    "endpoint_last_rounds": 50,
+    "noise_halfwidth": 0.2,
+    "participation_floor": 0.02,
+    "participation_span": 0.96,
+    "participation_intercept": 2.0,
+    "main": {
+      "worlds": 20,
+      "seeds_per_world": 10,
+      "friction": [
+        1.2,
+        0.0,
+        0.0
+      ],
+      "strength_anchors": [
+        3.0
+      ],
+      "families": [
+        "sigmoid",
+        "matched_exponential"
+      ],
+      "conditions": [
+        "endogenous",
+        "static",
+        "quota",
+        "ipw_true",
+        "ipw_omit_friction",
+        "ipw_half_sensitivity"
+      ],
+      "initial_action": "original-world equally weighted population optimum",
+      "training_seed": 202609270701
+    },
+    "symmetric": {
+      "theta": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "friction": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "betas": [
+        1.5,
+        3.0,
+        8.0
+      ],
+      "initial_actions": [
+        -0.75,
+        -0.25,
+        -0.01,
+        0.0,
+        0.01,
+        0.25,
+        0.75
+      ],
+      "conditions": [
+        "endogenous",
+        "static"
+      ],
+      "seeds": 50,
+      "training_seed": 202609270702
+    },
+    "invitation_seed": 202609270703,
+    "bootstrap_seed": 202609270704,
+    "bootstrap_resamples": 10000,
+    "trajectory_every": 10,
+    "deterministic_rounds": 5000,
+    "root_grid_points": 12001,
+    "planned_new_stochastic_runs": 4500,
+    "recruitment": "Uniform independent prospective invitations until B successes for natural sampling; targeted invitations until B/3 successes per group for quota. Probabilities fixed within a round. Simulate negative-binomial stopping costs independently of accepted preference values."
+  }
+}
