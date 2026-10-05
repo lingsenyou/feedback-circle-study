@@ -191,7 +191,7 @@ The human analogy remains a source of questions, not a biological explanation of
 
 ### Implications for panvascular research
 
-Adaptive vascular research illustrates why the population of interest may change as a computational tool's intended use expands. Work on intelligent photonics and digital twins connects intravascular imaging with computational representations of vascular care,[18] while AI-assisted screening of PLLA modifiers concerns candidate selection for vascular-device materials.[19] These examples motivate a research-governance question: when an objective moves from technical screening toward decisions affecting patients or clinical workflows, whose constraints can enter its revision and evaluation?
+Adaptive vascular research illustrates why the population of interest may change as a computational tool's intended use expands. Work on intelligent photonics and digital twins connects intravascular imaging with computational representations of vascular care,[18] while AI-assisted screening of PLLA modifiers concerns candidate selection for vascular-device materials.[19] These examples motivate a research-governance question: when an objective moves from technical screening toward decisions affecting patients or clinical workflows, whose constraints can enter its revision and evaluation? Recent nationwide outcome research in acute myocardial infarction also illustrates the scale and confounding structure of real-world interventional data to which these governance questions could eventually be applied.[20]
 
 The scalar model does not answer that clinical question. A preference coordinate has no validated mapping to vascular disease, treatment benefit, or device performance. Neither cited application paper supplies evidence for the present participation law. A clinical or biological extension would require a substantive domain question, suitable data, and independent validation.
 
@@ -215,7 +215,7 @@ The original protocol, frozen simulation outputs, exploratory extension protocol
 
 ## Use of generative AI
 
-OpenAI Codex assisted with literature retrieval, manuscript drafting, programming, execution, mathematical checks, figure preparation and internal review. Multiple AI agents independently inspected results and challenged one another's interpretations. This internal process is not external peer review. Numerical findings were obtained by executing the supplied code and are distinguished from untested hypotheses. AI tools are not authors; accountability for the submitted work remains with its human authors.
+OpenAI Codex assisted with literature review, manuscript drafting, coding, simulation development, figure preparation, and language editing. The human authors are responsible for the final manuscript and its conclusions.
 
 ## Conflicts of interest
 
@@ -284,3 +284,5 @@ A separate implementation checked covariance and intervention derivatives by fin
 [18] You L, Yao J, Qiu Y, Wang Y, Sun Y, Zhang R, Shen L, Ge J. From intravascular imaging to adaptive vascular care: intelligent photonics and digital twins in panvascular disease. Light: Science & Applications. 2026;15(1):335. https://doi.org/10.1038/s41377-026-02410-6
 
 [19] You L, Guo Y, Peng Z, Wang W, Shen L, Ge J. AI-assisted generation and screening of PLLA modifiers for bioresorbable vascular scaffolds. Chinese Science Bulletin. 2026;71(19):4653-4662. In Chinese. https://doi.org/10.1360/CSB-2026-0332
+
+[20] You L, Li H, Lu Z, Wang Y, Hong S, Wang M, Zang T, Huang L, Shen L, Ge J. Intra-aortic balloon pump use and in-hospital mortality in acute myocardial infarction with Killip class III or IV: a nationwide cohort study. Biomarker Research. 2026;14:97. https://doi.org/10.1186/s40364-026-00993-1
