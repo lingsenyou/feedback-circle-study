@@ -204,9 +204,13 @@ Outcome-dependent participation can change both an adaptive decision and the pop
 
 The original protocol, frozen simulation outputs, exploratory extension protocol and data, analytical verification, figure inputs and manuscript are available at https://github.com/lingsenyou/feedback-circle-study. Revision materials are versioned separately from the original experiment and historical working paper. All observations are synthetic; no private human or clinical data are included. Reproduction instructions distinguish original, exploratory and plotting environments.
 
+## Acknowledgements
+
+This project was supported by the National Natural Science Foundation of China (T2288101, 82170342) and Medical Engineering Joint Fund of Fudan University (yg2023-01). The language of this article has been polished with the assistance of AI-based language tools.
+
 ## Use of generative AI
 
-OpenAI Codex assisted with literature review, manuscript drafting, coding, simulation development, figure preparation, and language editing. The human authors are responsible for the final manuscript and its conclusions.
+OpenAI Codex assisted with literature review, drafting, coding, simulations, figure preparation, and language editing; the authors are responsible for the final manuscript and its conclusions.
 
 ## Conflicts of interest
 

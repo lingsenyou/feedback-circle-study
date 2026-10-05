@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the exact working-paper and repository version."
 type: software
 title: "Feedback selection and local stability in adaptive decision systems"
-version: 0.2.1
+version: 0.2.2
 url: "https://github.com/lingsenyou/feedback-circle-study"
 authors:
   - family-names: "You"
