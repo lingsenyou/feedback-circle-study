@@ -1,8 +1,8 @@
 # Feedback selection and local stability in adaptive decision systems
 
-Lingsen You, Li Shen, and Junbo Ge
+Lingsen You, Yujun Guo, Xinyu Zhong, Zisu Peng, Wentong Wang, Li Shen, and Junbo Ge
 
-Corresponding authors: Li Shen and Junbo Ge. Affiliations and contact details are in the PDF and Word manuscript.
+Lingsen You, Yujun Guo, Xinyu Zhong, Zisu Peng, and Wentong Wang are joint first authors. Li Shen and Junbo Ge are corresponding authors. Affiliations and contact details are in the PDF and Word manuscript.
 
 ## Abstract
 

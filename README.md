@@ -1,6 +1,6 @@
 # Feedback selection and local stability in adaptive decision systems
 
-**Current working paper: v0.2.3. Not peer reviewed. arXiv submission is being prepared; no arXiv identifier has been issued.**
+**Current working paper: v0.2.4. Not peer reviewed. arXiv submission is being prepared; no arXiv identifier has been issued.**
 
 This is a reproducible scalar mechanism study with local dynamical analysis and explicitly exploratory sensitivity experiments. It contains no human, biological, clinical or language-model observations.
 
@@ -12,7 +12,7 @@ This is a reproducible scalar mechanism study with local dynamical analysis and 
 - [Revision materials and reproduction instructions](v2/README.md)
 - [Exploratory extension protocol](v2/extension/PROTOCOL.md) and [complete extension results](v2/extension/RESULTS.md)
 
-The revised manuscript has **18 pages, seven figures and twenty references**. Its authors are Lingsen You, Li Shen and Junbo Ge; Li Shen and Junbo Ge are corresponding authors. Historical v0.1.0 retains the earlier title and seven-author byline; see the explicit version note in v2/README.md.
+The revised manuscript has **19 pages, seven figures and twenty references**. Its authors are Lingsen You, Yujun Guo, Xinyu Zhong, Zisu Peng, Wentong Wang, Li Shen and Junbo Ge. The first five are joint first authors; Li Shen and Junbo Ge are corresponding authors. Historical v0.1.0 retains the earlier title and seven-author byline; see the explicit version note in v2/README.md.
 
 ## Findings and scope
 

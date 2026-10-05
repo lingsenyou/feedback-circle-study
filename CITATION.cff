@@ -2,11 +2,19 @@ cff-version: 1.2.0
 message: "Please cite the exact working-paper and repository version."
 type: software
 title: "Feedback selection and local stability in adaptive decision systems"
-version: 0.2.3
+version: 0.2.4
 url: "https://github.com/lingsenyou/feedback-circle-study"
 authors:
   - family-names: "You"
     given-names: "Lingsen"
+  - family-names: "Guo"
+    given-names: "Yujun"
+  - family-names: "Zhong"
+    given-names: "Xinyu"
+  - family-names: "Peng"
+    given-names: "Zisu"
+  - family-names: "Wang"
+    given-names: "Wentong"
   - family-names: "Shen"
     given-names: "Li"
   - family-names: "Ge"
