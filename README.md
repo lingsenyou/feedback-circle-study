@@ -1,6 +1,6 @@
 # Feedback selection and local stability in adaptive decision systems
 
-**Current working paper: v0.2.2. Not peer reviewed. arXiv submission is being prepared; no arXiv identifier has been issued.**
+**Current working paper: v0.2.3. Not peer reviewed. arXiv submission is being prepared; no arXiv identifier has been issued.**
 
 This is a reproducible scalar mechanism study with local dynamical analysis and explicitly exploratory sensitivity experiments. It contains no human, biological, clinical or language-model observations.
 

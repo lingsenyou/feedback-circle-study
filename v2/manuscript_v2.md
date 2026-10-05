@@ -210,7 +210,7 @@ This project was supported by the National Natural Science Foundation of China (
 
 ## Use of generative AI
 
-OpenAI Codex assisted with literature review, drafting, coding, simulations, figure preparation, and language editing; the authors are responsible for the final manuscript and its conclusions.
+OpenAI Codex assisted with literature review, drafting, coding, simulations, figure preparation, and language editing. All AI-assisted outputs, analyses, and interpretations were reviewed and verified by the human authors under continuous human guidance, task-specific instruction, active participation, and supervision. The human authors are responsible for the final manuscript and its conclusions.
 
 ## Conflicts of interest
 

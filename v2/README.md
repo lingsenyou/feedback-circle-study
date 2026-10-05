@@ -31,6 +31,6 @@ Original and extension hashes, complete run tables, world summaries, numerical p
 
 ## Version and authorship record
 
-The historical v0.1.0 working paper retains its original seven-author byline and title. This v0.2.2 revised manuscript uses the subsequently supplied three-author byline: Lingsen You, Li Shen and Junbo Ge; the latter two are corresponding authors. Earlier release files have not been overwritten. These are versioned working-paper records, not a statement of journal acceptance or a verified priority claim.
+The historical v0.1.0 working paper retains its original seven-author byline and title. This v0.2.3 revised manuscript uses the subsequently supplied three-author byline: Lingsen You, Li Shen and Junbo Ge; the latter two are corresponding authors. Earlier release files have not been overwritten. These are versioned working-paper records, not a statement of journal acceptance or a verified priority claim.
 
 No additional reuse license is granted in this GitHub release. AI assistance is disclosed in the manuscript. Internal multi-agent review is not external peer review.
