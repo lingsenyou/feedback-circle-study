@@ -1,6 +1,8 @@
-# Revision 2 materials
+# Historical revision 2 materials
 
-The revised manuscript contains 19 pages, seven figures, twenty references, and a derivation appendix. It is a synthetic computational mechanism study. It does not test human participants, clinical outcomes, a language model, or retained learned knowledge.
+The current manuscript is in [ssrn](../ssrn/README.md); this folder preserves the v0.2.4 scientific revision and its execution record.
+
+The revised manuscript contains 24 pages, seven figures, twenty references, and a derivation appendix. It is a synthetic computational mechanism study. It does not test human participants, clinical outcomes, a language model, or retained learned knowledge.
 
 ## What changed
 
